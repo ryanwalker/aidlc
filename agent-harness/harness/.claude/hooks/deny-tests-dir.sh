@@ -1,9 +1,10 @@
 #!/bin/bash
 # PreToolUse hook, wired into implementer.md's own frontmatter — only runs
 # while that subagent is active. Blocks any tool call that touches tests/.
-set -euo pipefail
+set -euxo pipefail
 
 INPUT=$(cat)
+echo "$INPUT" >> /private/tmp/claude-501/-Users-ryanwalker-projects-research-agent-harness-harness/3deb8779-ca32-46b7-b832-30f09adadb07/scratchpad/hook-debug.log
 TOOL_NAME=$(echo "$INPUT" | jq -r '.tool_name')
 
 if [ "$TOOL_NAME" = "Bash" ]; then
