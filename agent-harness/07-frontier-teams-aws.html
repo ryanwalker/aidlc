@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From AI-Assisted to AI-Native — Agent Harness Research</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root { --bg:#f0f2f5; --card:#fff; --border:#d0d7de; --primary:#0969da; --accent:#6e40c9; --text:#1f2328; --muted:#57606a; --code-bg:#f6f8fa; --header-bg:#0d1117;
+                --warning-bg:#fff8c5; --warning-text:#7d4e00; --info-bg:#ddf4ff; --info-text:#0550ae; --success-bg:#dafbe1; --success-text:#116329; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; font-size: 15px; }
+        header { background: var(--header-bg); color: #e6edf3; padding: 40px 40px 30px; }
+        header h1 { font-size: 1.7rem; font-weight: 700; margin-bottom: 8px; }
+        header .meta { display: flex; gap: 10px; margin-top: 14px; flex-wrap: wrap; }
+        header .meta span { background: #21262d; border: 1px solid #30363d; border-radius: 6px; padding: 3px 12px; font-size: 0.76rem; color: #8b949e; }
+        header .topic { color: #8b949e; font-size: 0.9rem; margin-top: 6px; }
+        nav { background: #fff; border-bottom: 1px solid var(--border); padding: 0 40px; display: flex; overflow-x: auto; }
+        nav a { display: block; padding: 13px 14px; text-decoration: none; color: var(--muted); font-size: 0.82rem; white-space: nowrap; border-bottom: 2px solid transparent; }
+        nav a:hover, nav a.active { color: var(--primary); border-bottom-color: var(--primary); }
+        main { max-width: 900px; margin: 0 auto; padding: 40px 40px 80px; }
+        h2 { font-size: 1.2rem; font-weight: 700; margin: 36px 0 14px; padding-bottom: 8px; border-bottom: 2px solid var(--border); }
+        .card h2:first-child { margin-top: 0; }
+        h3 { font-size: 0.78rem; font-weight: 700; margin: 22px 0 10px; color: var(--muted); text-transform: uppercase; letter-spacing: 0.4px; }
+        p { font-size: 0.88rem; margin-bottom: 10px; }
+        ul, ol { padding-left: 20px; margin-bottom: 12px; }
+        li { font-size: 0.86rem; margin-bottom: 6px; line-height: 1.6; }
+        li strong { color: var(--primary); }
+        .card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 22px 26px; margin-bottom: 16px; }
+        .relevance { background: #ddf4ff; border: 1px solid #93c5fd; border-radius: 8px; padding: 16px 20px; margin-top: 16px; }
+        .callout { border-radius: 8px; padding: 14px 18px; margin: 14px 0; font-size: 0.86rem; }
+        .callout-warning { background: var(--warning-bg); color: var(--warning-text); border: 1px solid #d4a72c; }
+        .callout-info { background: var(--info-bg); color: var(--info-text); border: 1px solid #93c5fd; }
+        blockquote { border-left: 3px solid var(--accent); background: var(--code-bg); padding: 12px 18px; margin: 12px 0; font-size: 0.88rem; color: var(--text); border-radius: 0 6px 6px 0; }
+        blockquote cite { display: block; margin-top: 6px; font-size: 0.78rem; color: var(--muted); font-style: normal; }
+        pre { background: #0d1117; color: #e6edf3; border-radius: 8px; padding: 16px 18px; overflow-x: auto; font-size: 0.8rem; line-height: 1.6; margin: 10px 0; }
+        code { font-family: 'SF Mono', 'Cascadia Code', monospace; }
+        p code, li code { background: var(--code-bg); border: 1px solid var(--border); border-radius: 4px; padding: 1px 5px; font-size: 0.83em; }
+        table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 0.84rem; }
+        th, td { text-align: left; padding: 8px 12px; border: 1px solid var(--border); vertical-align: top; }
+        th { background: var(--code-bg); font-weight: 700; }
+        .two-col { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+        @media (max-width: 700px) { .two-col { grid-template-columns: 1fr; } main, header, nav { padding-left: 20px; padding-right: 20px; } }
+        .col-bad, .col-good { border-radius: 8px; padding: 14px 16px; font-size: 0.83rem; }
+        .col-bad { background: #ffebe9; border: 1px solid #ff8182; }
+        .col-good { background: var(--success-bg); border: 1px solid #4ac26b; }
+        .col-bad h4, .col-good h4 { font-size: 0.8rem; margin-bottom: 8px; text-transform: uppercase; letter-spacing: 0.4px; }
+        .col-bad ul, .col-good ul { margin-bottom: 0; }
+        footer { background: var(--header-bg); color: #8b949e; text-align: center; padding: 20px 40px; font-size: 0.76rem; }
+        .back-link { display: inline-block; margin-bottom: 24px; color: var(--primary); text-decoration: none; font-size: 0.84rem; }
+        .back-link:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+<header>
+    <h1>From AI-Assisted to AI-Native: Building a Frontier Development Team</h1>
+    <p class="topic">Amazon's internal pilot data on what separates teams that get step-function gains from teams that get a rounding error</p>
+    <div class="meta"><span>Clare Liguori · AWS</span><span>Conference talk · ~21 min</span><span>youtube.com/watch?v=pqlWNihgdjI</span></div>
+</header>
+<nav>
+    <a href="00-master-summary.html">Master Summary</a>
+    <a href="01-new-sdlc-vibe-coding.html">01 · New SDLC</a>
+    <a href="02-agent-harness-engineering.html">02 · Harness Engineering</a>
+    <a href="03-whitepaper-new-sdlc-vibe-coding.html">03 · Whitepaper</a>
+    <a href="04-agentic-code-review.html">04 · Code Review</a>
+    <a href="05-adk-coding-with-ai-cli.html">05 · ADK CLI</a>
+    <a href="06-claude-code-large-codebases.html">06 · Large Codebases</a>
+    <a href="07-frontier-teams-aws.html" class="active">07 · Frontier Teams</a>
+</nav>
+<main>
+    <a class="back-link" href="00-master-summary.html">← Back to Master Summary</a>
+
+    <div class="card">
+        <h2>Core Thesis</h2>
+        <blockquote>
+            It wasn't about the tools, it was about the way that they worked.
+            <cite>— Clare Liguori, on why half the pilot teams saw 3x and half saw 4.5x+</cite>
+        </blockquote>
+        <p>Teams that achieved step-function gains <strong>intentionally changed how they worked</strong>. Teams that saw little improvement layered the same tooling on top of an unchanged workflow. The differentiator was practice, not product — roughly 90% of both groups used the same tools.</p>
+        <p>Liguori notes that across inline completion → chat → vibe coding, she personally only ever felt <strong>10–20% more productive</strong>. The frontier practice is presented as a different category of change, not more of the same.</p>
+
+        <h3>Three defining behaviors of a "frontier developer"</h3>
+        <ul>
+            <li><strong>Hands-off coding</strong> — they personally write roughly 1–2% of the code they ship; agents produce the rest</li>
+            <li><strong>Infrequent interaction</strong> — the goal is an agent running for hours at a stretch without intervention</li>
+            <li><strong>Minimized idle time</strong> — multiple agents running in parallel against a task backlog</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>The Evidence Chain</h2>
+        <p>Three internal data points, each answering the objection raised by the previous one.</p>
+        <table>
+            <tr><th>Case</th><th>Result</th><th>Why it wasn't conclusive</th></tr>
+            <tr>
+                <td><strong>Bedrock "Mantle"</strong><br>New inference data plane</td>
+                <td>Estimated at 30 people × 18 months. Built by <strong>6 people in 76 days</strong> (~20x)</td>
+                <td>Staffed with some of the strongest engineers at the company, including two Distinguished Engineers — experts in distributed systems and LLM architecture. Not a reproducible team composition.</td>
+            </tr>
+            <tr>
+                <td><strong>Prime Video</strong><br>10-day experimental sprint</td>
+                <td>Delivery estimate cut from <strong>90 weeks to 24</strong>, measured against the team's own prior commit history</td>
+                <td>No on-call, limited meetings, few distractions — and a senior engineer had spent <strong>three weeks beforehand</strong> writing small, well-scoped tasks with detailed requirements. A structured experiment, not daily life.</td>
+            </tr>
+            <tr>
+                <td><strong>Amazon Stores</strong><br>50-team structured pilot</td>
+                <td>Half the teams under <strong>3x</strong>; the other half a <strong>median 4.5x</strong>, sometimes over 10x</td>
+                <td>This is the load-bearing one — normal seniority distribution, existing brownfield codebases, watched for most of a year.</td>
+            </tr>
+        </table>
+        <div class="callout callout-info"><strong>Metric worth noting:</strong> the Stores pilot measured <strong>deployment velocity to production</strong>, not commit count — how fast changes actually reach customers. The two earlier cases leaned on commit history, which is a considerably weaker proxy.</div>
+        <p>Interviews across all three groups produced the five habits below. Liguori is deliberate about the word <em>habits</em>: the finding was about sustained daily practice, not a one-time sprint configuration.</p>
+    </div>
+
+    <div class="card">
+        <h2>The Five Habits</h2>
+
+        <h3>1 · Invest in agent context</h3>
+        <p>Engineers carry large amounts of implicit context and transfer it to <em>people</em> through Slack, onboarding, mentorship, code review, and sprint planning. For agents it has to be written down. Two questions became standing habits:</p>
+        <ul>
+            <li><strong>After every agent mistake</strong> — "What am I missing in my steering files?" A wrong output is treated as a missing-context signal, so the fix removes the whole class of error instead of correcting it turn by turn.</li>
+            <li><strong>After every model release</strong> — "Do I still need this, or is it just bloating context?" Her example: Sonnet 3.7 required piles of "do not" rules that were largely unnecessary by Opus 4.5.</li>
+        </ul>
+        <div class="callout callout-info">The second question is the less obvious one. Context is framed as an asset with a <strong>pruning cycle</strong>, not an append-only file. Prohibition-shaped content ages fastest, because it encodes workarounds for model weaknesses that later models don't have.</div>
+
+        <h3>2 · Slow down to speed up</h3>
+        <blockquote>
+            In almost every team that was interviewed, they reported that their productivity actually went down as they intentionally adopted a new way of working.
+            <cite>— Clare Liguori</cite>
+        </blockquote>
+        <p>Presented as planned, scheduled engineering work rather than something that happens opportunistically:</p>
+        <ul>
+            <li><strong>Build agent context</strong> — the Habit 1 investment</li>
+            <li><strong>Improve existing tools' error messages</strong> — so the model can tell what went wrong when something fails</li>
+            <li><strong>Build new tools and MCP servers</strong> — so the agent can actually complete the task</li>
+            <li><strong>Restructure the codebase</strong> — so agents can navigate it</li>
+            <li><strong>Change programming language</strong> — the drastic end of the range</li>
+        </ul>
+        <p>On the last point: teams struggled with untyped languages because there is no compiler signal, so the model guesses and hands the guess back. Liguori has seen moves to TypeScript, and notes Rust has become popular inside Amazon partly for the quality of its compiler errors. She is explicit that this is optional, not prescribed.</p>
+
+        <h3>3 · Feed agents, don't babysit</h3>
+        <p>The mechanism behind the step-function gain. If you are in a conversational loop all day, you are the validator on every turn — waiting 30–60 seconds per generation, unable to do anything else, and therefore unable to run agents in parallel.</p>
+        <div class="two-col">
+            <div class="col-bad">
+                <h4>Babysitting — lots of back and forth</h4>
+                <ul>
+                    <li>Add authorization to this API</li>
+                    <li>Add tests</li>
+                    <li>The tests don't pass</li>
+                    <li>The tests still don't pass</li>
+                    <li>We don't have enough test coverage</li>
+                    <li>Add integration tests</li>
+                    <li>The integ tests don't pass</li>
+                </ul>
+            </div>
+            <div class="col-good">
+                <h4>Feeding — what to do + how to validate</h4>
+                <p>Add authorization to this API. Add unit tests. Run the unit tests; ensure they pass and achieve 90% coverage for the new code. Add integ tests to validate authorization and ensure they pass.</p>
+            </div>
+        </div>
+        <p>The task is identical. What changed is that the <strong>action</strong>, the <strong>verification step</strong>, and the <strong>numeric bar</strong> all moved into the prompt up front. Critically, nothing on the right is information the developer lacked on turn one of the left — it simply hadn't been stated.</p>
+        <p>The left column's failures aren't the agent performing badly; they're the agent having no way to know it was finished. Every "the tests don't pass" is a signal a human had to carry because nothing instructed the agent to check for itself.</p>
+        <div class="callout callout-info"><strong>The compounding step:</strong> once a validation prompt stabilizes, move it into the steering file so it applies every time without being typed. That is Habit 1 consuming the output of Habit 3.</div>
+
+        <h3>4 · Make intent explicit</h3>
+        <p>The vibe-coding failure mode is a high-level prompt, a large volume of generated code, then a long negotiation — that's not what I meant, the requirements are wrong, I didn't want it built that way.</p>
+        <blockquote>
+            It is less productive to iterate with the agent on code when the intent itself was incorrect.
+            <cite>— Clare Liguori</cite>
+        </blockquote>
+        <p>For ambiguous or complex features, teams write a specification first — generated by the model rather than hand-written, but reviewed before implementation. The stated reason: iterating with a model on a <strong>document</strong> is far easier than iterating on <strong>code changes spread across a codebase</strong>.</p>
+        <pre><code># Feature Specification
+
+## Objective
+What is the main objective or purpose of the project
+
+## Use Cases
+Who are the users and how will they use the feature
+
+## Key Functionality
+What are the key elements, style, and design approach required
+
+## Technical Requirements and Design
+What specific technical or quality requirements must be met and how
+should the feature be implemented</code></pre>
+        <p>The ordering carries the argument: <strong>why → who → what → how</strong>, with technical design last. The vibe-coding loop jumps straight to "how," so when the real disagreement is about "what" or "why," it gets relitigated against code that already exists. Note also that the final section is where Habit 3's validation criteria naturally live.</p>
+
+        <h3>5 · Shift testing left</h3>
+        <p>The purpose is a fast, <em>local</em> feedback loop — the thing that makes hours-long autonomous runs possible. The agent will make mistakes; that is acceptable as long as the signals exist for it to self-correct.</p>
+        <ul>
+            <li><strong>Linters</strong> — cheapest and fastest signal, listed first</li>
+            <li><strong>Mock services</strong> — listed second, above the test types</li>
+            <li><strong>Unit tests</strong>, <strong>integration tests</strong>, <strong>performance tests</strong>, <strong>security tests</strong></li>
+        </ul>
+        <p>Mock services get unusual prominence. Rather than running integration tests end-to-end against live services, teams invested in local mocks with deterministic responses so everything runs on the laptop with no cloud spin-up. More speed means more loops per unit time, which is the actual constraint on agent productivity.</p>
+        <blockquote>
+            These are all things we all know we should have been doing all along. This is good engineering hygiene. But now the ROI is, I think, finally high enough for us to actually invest in it.
+            <cite>— Clare Liguori</cite>
+        </blockquote>
+    </div>
+
+    <div class="card">
+        <h2>What Is Still Hard</h2>
+        <p>Liguori explicitly declines the "adopt these five and reach nirvana" framing, and the caveats are arguably the most transferable part of the talk.</p>
+
+        <h3>Burnout</h3>
+        <ul>
+            <li><strong>FOMAT — Fear Of Missing Agent Time</strong> (a term she credits to someone else). Engineers stay up late trying to land a prompt good enough to run overnight, so a finished change is waiting in the morning. The agent's clock runs continuously, so idle agent capacity starts to feel like waste — the machine's availability begins setting the human's schedule.</li>
+            <li><strong>Cognitive load rises with parallelism</strong> — constant context-switching between terminal tabs. This is the direct cost of the Habit 3 payoff.</li>
+            <li><strong>Review can be harder than writing</strong>, and it lands unevenly. Senior engineers have spent years building the review muscle; early-career engineers have not. The model asks the people with the least-developed review skills to do the most reviewing.</li>
+        </ul>
+
+        <h3>Organizational change</h3>
+        <ul>
+            <li><strong>Accepting "slow down to speed up."</strong> Liguori includes herself among leaders guilty of asking why teams aren't faster now that the tools exist. Teams need roughly two months to invest in the codebase and change habits — measured against social-media claims of 20 PRs a day, that looks like failure.</li>
+            <li><strong>Going too broad, too fast.</strong> Had Amazon mandated frontier practice everywhere at once, the learnings from the pathfinder, sprint, and pilot phases wouldn't exist. Scaling from ~50 teams to the next ~2,000 is described as the 2026 problem.</li>
+            <li><strong>New bottlenecks appear.</strong> Writing code used to be the constraint; now it's decision-making and launch-review process.</li>
+        </ul>
+        <div class="callout callout-warning"><strong>The bottleneck arithmetic:</strong> when a product took 9–12 months to build, spending two months deciding to build it and two months approving the launch was rounding error. When the code takes 1–2 months, those approvals become the critical path. Liguori's observation is that frontier teams spend more time making decisions than writing code — so the leverage moves to making fast decisions, especially reversible ones.</div>
+    </div>
+
+    <div class="card">
+        <h2>Cross-Cutting Pattern: Governance by Document</h2>
+        <p>Habits 1, 3, and 4 are the same move applied at different points: stop adjudicating individual agent actions, start writing down the rules those actions are judged against. Correction shifts from runtime to the document.</p>
+        <p>This is why the five reinforce each other rather than standing as independent tips:</p>
+        <ul>
+            <li><strong>Habit 4</strong> writes down what is being built — before code exists to argue about</li>
+            <li><strong>Habit 3</strong> writes down what "done" means — so the agent self-gates</li>
+            <li><strong>Habit 5</strong> builds the machinery that checks it — so self-gating is possible at all</li>
+            <li><strong>Habit 1</strong> promotes recurring cases into permanent context — so nothing is retyped</li>
+            <li><strong>Habit 2</strong> is the admission that all of the above is real, schedulable work</li>
+        </ul>
+        <p>A constitution is a tempting analogy, and it holds in one dimension: both are written principles applied in advance to an actor whose every action can't be supervised. Kiro's steering-file inclusion modes even reproduce a legal hierarchy — <code>always</code> behaving like constitutional law and <code>fileMatch</code> like statute that binds only within its jurisdiction. But the analogy breaks on amendment cost. A constitution's defining feature is being hard to change; Habit 1 says to delete aggressively. Agent context behaves more like case law that gets overturned as the underlying court changes.</p>
+        <div class="callout callout-info">Distinct from <strong>Constitutional AI</strong>, which applies written principles at <em>training</em> time to shape weights. Steering files operate at <em>inference</em> time — they cost tokens on every request and compete with everything else in the window.</div>
+    </div>
+
+    <div class="card">
+        <h2>Reference: Kiro Steering Files</h2>
+        <p>The talk uses "steering files" and "skills files" interchangeably without defining either. For clarity — steering files are Kiro's persistent project-context mechanism, the analogue of <code>CLAUDE.md</code>. They live in <code>.kiro/steering/</code> as markdown, and three are generated by default: <code>product.md</code> (purpose and goals), <code>tech.md</code> (frameworks and constraints), and <code>structure.md</code> (code organization).</p>
+        <p>YAML front matter controls when each file loads, and must be the first content in the file:</p>
+        <table>
+            <tr><th>Mode</th><th>Loads</th><th>Intended for</th></tr>
+            <tr><td><code>inclusion: always</code></td><td>Every interaction</td><td>Core standards, tech stack, conventions</td></tr>
+            <tr><td><code>inclusion: auto</code></td><td>When the request matches its <code>description</code></td><td>Context-heavy guidance needed only sometimes</td></tr>
+            <tr><td><code>inclusion: fileMatch</code> + <code>fileMatchPattern</code></td><td>Only when working on matching files (globs; arrays allowed)</td><td>Domain-specific standards</td></tr>
+        </table>
+        <p>Additionally, <code>#[[file:&lt;relative_path&gt;]]</code> pulls in live workspace file contents, and CLI custom agents can load the directory via <code>{"resources": ["file://.kiro/steering/**/*.md"]}</code>.</p>
+        <div class="callout callout-info"><strong>Why this matters for Habit 1:</strong> the inclusion modes make "is this just bloating context?" a mechanical question rather than a judgment call. Bloat comes from <code>always</code> files — a rule that only applies to React components costs nothing elsewhere if it's <code>fileMatch</code>-scoped. Much of "should I delete this?" becomes "should I demote this to conditional?"</div>
+    </div>
+
+    <div class="relevance card">
+        <h2>Relevance</h2>
+        <p>This is the first source in this collection with <strong>controlled internal data across a normal team distribution</strong> rather than practitioner advocacy — 50 teams, brownfield codebases, measured on deployment velocity rather than commit volume. The split result (under 3x vs. median 4.5x with identical tooling) is the strongest available evidence that harness practice, not tool selection, is the variable that matters.</p>
+        <p>Habit 1's pruning question is a direct counterweight to the <strong>Ratchet Principle</strong> in <a href="02-agent-harness-engineering.html">02 · Harness Engineering</a>. The ratchet says every failure becomes a permanent rule; this talk says rules encoding old model weaknesses become liabilities and must be actively removed. Both are right, and the synthesis — every rule traces to a specific failure, and gets re-examined when the model changes — is a more complete policy than either alone.</p>
+        <p>Habit 2 gives a name and internal precedent to the adoption cost documented in <code>specs/adoption-plan.md</code>: the productivity dip is not a sign of failed rollout, it is the expected shape. The organizational caveats — leaders reading the dip as underperformance, and rolling out too broadly before best practices exist — are the most directly applicable material here for anyone planning a phased adoption.</p>
+        <p>Habit 5's emphasis on <strong>deterministic local mock services</strong> is the concrete, unglamorous infrastructure investment that makes long autonomous runs viable, and pairs with the hook-based enforcement already scaffolded in <code>harness/</code>.</p>
+    </div>
+</main>
+<footer>Agent Harness &amp; Agentic Engineering Research &nbsp;·&nbsp; Notes from a public conference talk · September 2026</footer>
+</body>
+</html>
