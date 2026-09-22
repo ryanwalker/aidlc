@@ -42,6 +42,10 @@ Working definition: **Agent = Model + Harness**. The model reasons; the harness 
 
 **How:** Wired at fixed points in the agent's action loop — before it takes an action, after it changes something, before anything irreversible — as code that runs regardless of what the model decided, not as additional prompt text.
 
+See [[../proposals/0001-review-swarm-and-risk-gate.md]] for a concrete
+instance: a deterministic, short-circuiting risk gate (PR state → blast
+radius → diff size → LLM check) gating auto-approval of PRs.
+
 ### 7. Memory across turns and sessions
 
 **What:** State that persists beyond a single context window — what the agent has already tried, decisions already made, facts already established — so work doesn't restart from zero every time the window fills or a new session begins.
@@ -53,6 +57,10 @@ Working definition: **Agent = Model + Harness**. The model reasons; the harness 
 **What:** Checks that confirm the agent actually succeeded, run by something other than the agent that did the work. Self-review by the same agent that generated the output doesn't catch much; the harness needs an independent check built in, not bolted on after.
 
 **How:** Tests cover the deterministic parts (given this input, that exact output); evals cover the non-deterministic parts (did it take a reasonable path, choose the right tools, meet a quality bar) via a dataset of cases, a task run, and a scorer. Prefer scorers that are code, not a model's opinion, wherever a deterministic check is possible; reserve a model-as-judge (with a written rubric) for genuinely subjective calls. Whoever authors the checks should be separate from whoever's work is being checked.
+
+See [[../proposals/0001-review-swarm-and-risk-gate.md]] for a concrete
+instance: an independent multi-agent review swarm (distinct lens + model per
+reviewer) checking PRs the authoring agent didn't review itself.
 
 ### 9. Observability into what the agent actually did
 

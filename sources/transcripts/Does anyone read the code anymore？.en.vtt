@@ -1,0 +1,1664 @@
+WEBVTT
+Kind: captions
+Language: en
+
+00:00:00.000 --> 00:00:02.270 align:start position:0%
+ 
+Code<00:00:00.320><c> reviews</c><00:00:00.840><c> are</c><00:00:00.960><c> the</c><00:00:01.080><c> new</c><00:00:01.320><c> big</c><00:00:01.640><c> problem</c><00:00:02.120><c> in</c>
+
+00:00:02.270 --> 00:00:02.280 align:start position:0%
+Code reviews are the new big problem in
+ 
+
+00:00:02.280 --> 00:00:04.630 align:start position:0%
+Code reviews are the new big problem in
+software<00:00:02.720><c> development.</c><00:00:03.560><c> At</c><00:00:03.800><c> PostHog,</c><00:00:04.440><c> we're</c>
+
+00:00:04.630 --> 00:00:04.640 align:start position:0%
+software development. At PostHog, we're
+ 
+
+00:00:04.640 --> 00:00:07.110 align:start position:0%
+software development. At PostHog, we're
+merging<00:00:05.160><c> six</c><00:00:05.600><c> times</c><00:00:06.000><c> as</c><00:00:06.200><c> many</c><00:00:06.480><c> pull</c><00:00:06.720><c> requests</c>
+
+00:00:07.110 --> 00:00:07.120 align:start position:0%
+merging six times as many pull requests
+ 
+
+00:00:07.120 --> 00:00:09.430 align:start position:0%
+merging six times as many pull requests
+a<00:00:07.200><c> week</c><00:00:07.480><c> now</c><00:00:08.080><c> than</c><00:00:08.400><c> we</c><00:00:08.560><c> were</c><00:00:08.800><c> just</c><00:00:09.160><c> a</c><00:00:09.240><c> few</c>
+
+00:00:09.430 --> 00:00:09.440 align:start position:0%
+a week now than we were just a few
+ 
+
+00:00:09.440 --> 00:00:12.390 align:start position:0%
+a week now than we were just a few
+months<00:00:09.680><c> ago.</c><00:00:10.280><c> That's</c><00:00:10.800><c> six</c><00:00:11.160><c> times</c><00:00:11.640><c> as</c><00:00:11.840><c> many</c><00:00:12.120><c> new</c>
+
+00:00:12.390 --> 00:00:12.400 align:start position:0%
+months ago. That's six times as many new
+ 
+
+00:00:12.400 --> 00:00:14.910 align:start position:0%
+months ago. That's six times as many new
+features,<00:00:13.000><c> performance</c><00:00:13.560><c> improvements,</c><00:00:14.480><c> UX</c>
+
+00:00:14.910 --> 00:00:14.920 align:start position:0%
+features, performance improvements, UX
+ 
+
+00:00:14.920 --> 00:00:17.950 align:start position:0%
+features, performance improvements, UX
+tweaks,<00:00:15.440><c> bug</c><00:00:15.760><c> fixes,</c><00:00:16.560><c> and</c><00:00:16.760><c> of</c><00:00:16.880><c> course,</c><00:00:17.600><c> six</c>
+
+00:00:17.950 --> 00:00:17.960 align:start position:0%
+tweaks, bug fixes, and of course, six
+ 
+
+00:00:17.960 --> 00:00:20.350 align:start position:0%
+tweaks, bug fixes, and of course, six
+times<00:00:18.480><c> as</c><00:00:18.720><c> many</c><00:00:19.040><c> new</c><00:00:19.320><c> PRs</c><00:00:19.880><c> that</c><00:00:20.080><c> need</c>
+
+00:00:20.350 --> 00:00:20.360 align:start position:0%
+times as many new PRs that need
+ 
+
+00:00:20.360 --> 00:00:23.030 align:start position:0%
+times as many new PRs that need
+reviewing.<00:00:21.160><c> Now,</c><00:00:21.800><c> some</c><00:00:22.160><c> will</c><00:00:22.360><c> argue</c><00:00:22.720><c> that</c>
+
+00:00:23.030 --> 00:00:23.040 align:start position:0%
+reviewing. Now, some will argue that
+ 
+
+00:00:23.040 --> 00:00:24.830 align:start position:0%
+reviewing. Now, some will argue that
+reading<00:00:23.360><c> and</c><00:00:23.560><c> understanding</c><00:00:24.240><c> every</c><00:00:24.520><c> line</c><00:00:24.720><c> of</c>
+
+00:00:24.830 --> 00:00:24.840 align:start position:0%
+reading and understanding every line of
+ 
+
+00:00:24.840 --> 00:00:27.710 align:start position:0%
+reading and understanding every line of
+code<00:00:25.120><c> that</c><00:00:25.240><c> an</c><00:00:25.400><c> LLM</c><00:00:25.760><c> commits</c><00:00:26.320><c> is</c><00:00:26.880><c> the</c><00:00:27.160><c> only</c><00:00:27.480><c> way</c>
+
+00:00:27.710 --> 00:00:27.720 align:start position:0%
+code that an LLM commits is the only way
+ 
+
+00:00:27.720 --> 00:00:30.710 align:start position:0%
+code that an LLM commits is the only way
+of<00:00:27.840><c> avoiding</c><00:00:28.320><c> shipping</c><00:00:28.840><c> AI</c><00:00:29.120><c> slop,</c><00:00:29.720><c> but</c><00:00:30.280><c> that's</c>
+
+00:00:30.710 --> 00:00:30.720 align:start position:0%
+of avoiding shipping AI slop, but that's
+ 
+
+00:00:30.720 --> 00:00:32.990 align:start position:0%
+of avoiding shipping AI slop, but that's
+just<00:00:31.120><c> wrong.</c><00:00:31.640><c> If</c><00:00:32.040><c> you</c><00:00:32.200><c> need</c><00:00:32.360><c> to</c><00:00:32.439><c> be</c><00:00:32.560><c> involved</c>
+
+00:00:32.990 --> 00:00:33.000 align:start position:0%
+just wrong. If you need to be involved
+ 
+
+00:00:33.000 --> 00:00:35.670 align:start position:0%
+just wrong. If you need to be involved
+in<00:00:33.200><c> every</c><00:00:33.520><c> code</c><00:00:33.800><c> review,</c><00:00:34.560><c> you</c><00:00:34.760><c> will</c><00:00:35.000><c> always</c><00:00:35.360><c> be</c>
+
+00:00:35.670 --> 00:00:35.680 align:start position:0%
+in every code review, you will always be
+ 
+
+00:00:35.680 --> 00:00:37.990 align:start position:0%
+in every code review, you will always be
+the<00:00:35.840><c> bottleneck.</c><00:00:36.640><c> You're</c><00:00:37.120><c> just</c><00:00:37.400><c> trading</c><00:00:37.760><c> one</c>
+
+00:00:37.990 --> 00:00:38.000 align:start position:0%
+the bottleneck. You're just trading one
+ 
+
+00:00:38.000 --> 00:00:40.310 align:start position:0%
+the bottleneck. You're just trading one
+problem,<00:00:38.520><c> which</c><00:00:38.760><c> is</c><00:00:38.960><c> writing</c><00:00:39.280><c> the</c><00:00:39.400><c> code,</c><00:00:40.040><c> for</c>
+
+00:00:40.310 --> 00:00:40.320 align:start position:0%
+problem, which is writing the code, for
+ 
+
+00:00:40.320 --> 00:00:42.630 align:start position:0%
+problem, which is writing the code, for
+another,<00:00:40.920><c> which</c><00:00:41.200><c> is</c><00:00:41.520><c> reviewing</c><00:00:41.960><c> it.</c><00:00:42.320><c> In</c><00:00:42.440><c> this</c>
+
+00:00:42.630 --> 00:00:42.640 align:start position:0%
+another, which is reviewing it. In this
+ 
+
+00:00:42.640 --> 00:00:44.030 align:start position:0%
+another, which is reviewing it. In this
+video,<00:00:43.040><c> I'm</c><00:00:43.120><c> going</c><00:00:43.240><c> to</c><00:00:43.320><c> share</c><00:00:43.560><c> with</c><00:00:43.760><c> you</c><00:00:43.880><c> the</c>
+
+00:00:44.030 --> 00:00:44.040 align:start position:0%
+video, I'm going to share with you the
+ 
+
+00:00:44.040 --> 00:00:46.590 align:start position:0%
+video, I'm going to share with you the
+real<00:00:44.360><c> skills,</c><00:00:45.000><c> loops,</c><00:00:45.480><c> and</c><00:00:45.760><c> mental</c><00:00:46.160><c> models</c>
+
+00:00:46.590 --> 00:00:46.600 align:start position:0%
+real skills, loops, and mental models
+ 
+
+00:00:46.600 --> 00:00:49.030 align:start position:0%
+real skills, loops, and mental models
+that<00:00:46.760><c> PostHog's</c><00:00:47.360><c> engineers</c><00:00:47.880><c> use</c><00:00:48.480><c> to</c><00:00:48.600><c> solve</c>
+
+00:00:49.030 --> 00:00:49.040 align:start position:0%
+that PostHog's engineers use to solve
+ 
+
+00:00:49.040 --> 00:00:51.190 align:start position:0%
+that PostHog's engineers use to solve
+this<00:00:49.280><c> problem,</c><00:00:49.800><c> so</c><00:00:50.360><c> you</c><00:00:50.520><c> can</c><00:00:50.680><c> keep</c><00:00:50.880><c> shipping</c>
+
+00:00:51.190 --> 00:00:51.200 align:start position:0%
+this problem, so you can keep shipping
+ 
+
+00:00:51.200 --> 00:00:54.270 align:start position:0%
+this problem, so you can keep shipping
+fast<00:00:51.680><c> and</c><00:00:52.200><c> do</c><00:00:52.440><c> so</c><00:00:52.720><c> reliably.</c><00:00:53.560><c> So,</c><00:00:53.960><c> without</c>
+
+00:00:54.270 --> 00:00:54.280 align:start position:0%
+fast and do so reliably. So, without
+ 
+
+00:00:54.280 --> 00:00:57.110 align:start position:0%
+fast and do so reliably. So, without
+further<00:00:54.560><c> ado,</c><00:00:55.200><c> let's</c><00:00:55.440><c> get</c><00:00:55.600><c> into</c><00:00:55.840><c> it.</c><00:00:56.560><c> Okay,</c><00:00:56.840><c> so</c>
+
+00:00:57.110 --> 00:00:57.120 align:start position:0%
+further ado, let's get into it. Okay, so
+ 
+
+00:00:57.120 --> 00:00:58.990 align:start position:0%
+further ado, let's get into it. Okay, so
+the<00:00:57.280><c> first</c><00:00:57.520><c> thing</c><00:00:57.680><c> we</c><00:00:57.760><c> need</c><00:00:57.960><c> to</c><00:00:58.080><c> ship</c><00:00:58.440><c> AI</c><00:00:58.720><c> code</c>
+
+00:00:58.990 --> 00:00:59.000 align:start position:0%
+the first thing we need to ship AI code
+ 
+
+00:00:59.000 --> 00:01:01.430 align:start position:0%
+the first thing we need to ship AI code
+reliably<00:00:59.720><c> is</c><00:00:59.920><c> an</c><00:01:00.080><c> independent</c><00:01:00.760><c> code</c><00:01:01.080><c> review</c>
+
+00:01:01.430 --> 00:01:01.440 align:start position:0%
+reliably is an independent code review
+ 
+
+00:01:01.440 --> 00:01:04.030 align:start position:0%
+reliably is an independent code review
+loop.<00:01:01.920><c> This</c><00:01:02.160><c> is</c><00:01:02.360><c> necessary</c><00:01:02.880><c> because</c><00:01:03.560><c> agents</c>
+
+00:01:04.030 --> 00:01:04.040 align:start position:0%
+loop. This is necessary because agents
+ 
+
+00:01:04.040 --> 00:01:05.590 align:start position:0%
+loop. This is necessary because agents
+are<00:01:04.239><c> really</c><00:01:04.519><c> bad</c><00:01:04.760><c> at</c><00:01:04.920><c> checking</c><00:01:05.239><c> their</c><00:01:05.400><c> own</c>
+
+00:01:05.590 --> 00:01:05.600 align:start position:0%
+are really bad at checking their own
+ 
+
+00:01:05.600 --> 00:01:08.470 align:start position:0%
+are really bad at checking their own
+work.<00:01:06.120><c> They're</c><00:01:06.480><c> overconfident</c><00:01:07.600><c> and</c><00:01:07.960><c> unaware</c>
+
+00:01:08.470 --> 00:01:08.480 align:start position:0%
+work. They're overconfident and unaware
+ 
+
+00:01:08.480 --> 00:01:10.870 align:start position:0%
+work. They're overconfident and unaware
+of<00:01:08.600><c> their</c><00:01:08.800><c> own</c><00:01:09.040><c> blind</c><00:01:09.400><c> spots.</c><00:01:10.000><c> The</c><00:01:10.280><c> goal</c><00:01:10.560><c> here</c>
+
+00:01:10.870 --> 00:01:10.880 align:start position:0%
+of their own blind spots. The goal here
+ 
+
+00:01:10.880 --> 00:01:13.270 align:start position:0%
+of their own blind spots. The goal here
+is<00:01:11.040><c> to</c><00:01:11.640><c> offload</c><00:01:12.120><c> the</c><00:01:12.200><c> simpler</c><00:01:12.640><c> reviews</c><00:01:13.080><c> to</c>
+
+00:01:13.270 --> 00:01:13.280 align:start position:0%
+is to offload the simpler reviews to
+ 
+
+00:01:13.280 --> 00:01:15.750 align:start position:0%
+is to offload the simpler reviews to
+agents<00:01:13.840><c> and</c><00:01:14.400><c> flag</c><00:01:14.840><c> whenever</c><00:01:15.280><c> something</c>
+
+00:01:15.750 --> 00:01:15.760 align:start position:0%
+agents and flag whenever something
+ 
+
+00:01:15.760 --> 00:01:18.270 align:start position:0%
+agents and flag whenever something
+genuinely<00:01:16.200><c> needs</c><00:01:16.560><c> our</c><00:01:16.760><c> attention.</c><00:01:17.600><c> Now,</c><00:01:18.000><c> Paul</c>
+
+00:01:18.270 --> 00:01:18.280 align:start position:0%
+genuinely needs our attention. Now, Paul
+ 
+
+00:01:18.280 --> 00:01:20.510 align:start position:0%
+genuinely needs our attention. Now, Paul
+Danbra,<00:01:18.960><c> an</c><00:01:19.200><c> engineer</c><00:01:19.600><c> at</c><00:01:19.720><c> PostHog</c><00:01:20.160><c> here</c><00:01:20.400><c> on</c>
+
+00:01:20.510 --> 00:01:20.520 align:start position:0%
+Danbra, an engineer at PostHog here on
+ 
+
+00:01:20.520 --> 00:01:22.950 align:start position:0%
+Danbra, an engineer at PostHog here on
+the<00:01:20.640><c> exact</c><00:01:21.000><c> team,</c><00:01:21.640><c> solves</c><00:01:22.040><c> this</c><00:01:22.280><c> by</c><00:01:22.440><c> using</c><00:01:22.880><c> a</c>
+
+00:01:22.950 --> 00:01:22.960 align:start position:0%
+the exact team, solves this by using a
+ 
+
+00:01:22.960 --> 00:01:25.510 align:start position:0%
+the exact team, solves this by using a
+multi-agent<00:01:23.920><c> loop</c><00:01:24.200><c> review</c><00:01:24.480><c> system</c><00:01:24.960><c> that</c><00:01:25.200><c> has</c>
+
+00:01:25.510 --> 00:01:25.520 align:start position:0%
+multi-agent loop review system that has
+ 
+
+00:01:25.520 --> 00:01:28.270 align:start position:0%
+multi-agent loop review system that has
+two<00:01:25.720><c> stages.</c><00:01:26.480><c> First,</c><00:01:26.920><c> his</c><00:01:27.120><c> QA</c><00:01:27.480><c> swarm</c><00:01:27.840><c> skill</c>
+
+00:01:28.270 --> 00:01:28.280 align:start position:0%
+two stages. First, his QA swarm skill
+ 
+
+00:01:28.280 --> 00:01:30.630 align:start position:0%
+two stages. First, his QA swarm skill
+spawns<00:01:28.760><c> four</c><00:01:29.040><c> review</c><00:01:29.400><c> agents,</c><00:01:30.160><c> each</c><00:01:30.480><c> with</c>
+
+00:01:30.630 --> 00:01:30.640 align:start position:0%
+spawns four review agents, each with
+ 
+
+00:01:30.640 --> 00:01:32.310 align:start position:0%
+spawns four review agents, each with
+their<00:01:30.800><c> own</c><00:01:30.960><c> special</c><00:01:31.320><c> instructions</c><00:01:32.080><c> and</c>
+
+00:01:32.310 --> 00:01:32.320 align:start position:0%
+their own special instructions and
+ 
+
+00:01:32.320 --> 00:01:34.630 align:start position:0%
+their own special instructions and
+adopting<00:01:32.920><c> different</c><00:01:33.280><c> models</c><00:01:34.000><c> based</c><00:01:34.400><c> on</c><00:01:34.520><c> their</c>
+
+00:01:34.630 --> 00:01:34.640 align:start position:0%
+adopting different models based on their
+ 
+
+00:01:34.640 --> 00:01:36.950 align:start position:0%
+adopting different models based on their
+suitability<00:01:35.280><c> for</c><00:01:35.440><c> the</c><00:01:35.560><c> task.</c><00:01:36.280><c> QA</c><00:01:36.640><c> swarm</c>
+
+00:01:36.950 --> 00:01:36.960 align:start position:0%
+suitability for the task. QA swarm
+ 
+
+00:01:36.960 --> 00:01:39.030 align:start position:0%
+suitability for the task. QA swarm
+spawns<00:01:37.440><c> technical</c><00:01:37.880><c> sub-agents</c><00:01:38.520><c> that</c><00:01:38.800><c> hunt</c>
+
+00:01:39.030 --> 00:01:39.040 align:start position:0%
+spawns technical sub-agents that hunt
+ 
+
+00:01:39.040 --> 00:01:41.390 align:start position:0%
+spawns technical sub-agents that hunt
+for<00:01:39.200><c> security,</c><00:01:40.040><c> database,</c><00:01:40.680><c> and</c><00:01:40.880><c> performance</c>
+
+00:01:41.390 --> 00:01:41.400 align:start position:0%
+for security, database, and performance
+ 
+
+00:01:41.400 --> 00:01:43.630 align:start position:0%
+for security, database, and performance
+problems<00:01:41.880><c> using</c><00:01:42.160><c> Fable.</c><00:01:42.840><c> Security</c><00:01:43.280><c> audit</c>
+
+00:01:43.630 --> 00:01:43.640 align:start position:0%
+problems using Fable. Security audit
+ 
+
+00:01:43.640 --> 00:01:45.910 align:start position:0%
+problems using Fable. Security audit
+probes<00:01:44.000><c> for</c><00:01:44.120><c> vulnerabilities</c><00:01:44.840><c> like</c><00:01:45.120><c> SQL</c><00:01:45.760><c> or</c>
+
+00:01:45.910 --> 00:01:45.920 align:start position:0%
+probes for vulnerabilities like SQL or
+ 
+
+00:01:45.920 --> 00:01:48.550 align:start position:0%
+probes for vulnerabilities like SQL or
+prompt<00:01:46.280><c> injections,</c><00:01:47.160><c> also</c><00:01:47.560><c> using</c><00:01:47.880><c> Fable.</c>
+
+00:01:48.550 --> 00:01:48.560 align:start position:0%
+prompt injections, also using Fable.
+ 
+
+00:01:48.560 --> 00:01:50.630 align:start position:0%
+prompt injections, also using Fable.
+Paul<00:01:48.800><c> reviewer</c><00:01:49.360><c> uses</c><00:01:49.720><c> Paul's</c><00:01:50.000><c> voice</c><00:01:50.440><c> and</c>
+
+00:01:50.630 --> 00:01:50.640 align:start position:0%
+Paul reviewer uses Paul's voice and
+ 
+
+00:01:50.640 --> 00:01:53.070 align:start position:0%
+Paul reviewer uses Paul's voice and
+focuses<00:01:51.120><c> on</c><00:01:51.280><c> observability,</c><00:01:52.280><c> naming,</c><00:01:52.800><c> and</c>
+
+00:01:53.070 --> 00:01:53.080 align:start position:0%
+focuses on observability, naming, and
+ 
+
+00:01:53.080 --> 00:01:55.510 align:start position:0%
+focuses on observability, naming, and
+rollouts.<00:01:53.760><c> This</c><00:01:54.000><c> one</c><00:01:54.280><c> uses</c><00:01:54.640><c> a</c><00:01:54.720><c> cheaper</c><00:01:55.040><c> model.</c>
+
+00:01:55.510 --> 00:01:55.520 align:start position:0%
+rollouts. This one uses a cheaper model.
+ 
+
+00:01:55.520 --> 00:01:57.910 align:start position:0%
+rollouts. This one uses a cheaper model.
+Finally,<00:01:56.040><c> XP</c><00:01:56.480><c> reviewer</c><00:01:56.920><c> applies</c><00:01:57.360><c> an</c><00:01:57.520><c> extreme</c>
+
+00:01:57.910 --> 00:01:57.920 align:start position:0%
+Finally, XP reviewer applies an extreme
+ 
+
+00:01:57.920 --> 00:01:59.790 align:start position:0%
+Finally, XP reviewer applies an extreme
+programming<00:01:58.440><c> lens,</c><00:01:58.960><c> checking</c><00:01:59.320><c> for</c><00:01:59.480><c> things</c>
+
+00:01:59.790 --> 00:01:59.800 align:start position:0%
+programming lens, checking for things
+ 
+
+00:01:59.800 --> 00:02:02.030 align:start position:0%
+programming lens, checking for things
+like<00:02:00.040><c> readability</c><00:02:00.640><c> and</c><00:02:01.000><c> best</c><00:02:01.240><c> practices.</c>
+
+00:02:02.030 --> 00:02:02.040 align:start position:0%
+like readability and best practices.
+ 
+
+00:02:02.040 --> 00:02:04.310 align:start position:0%
+like readability and best practices.
+Next,<00:02:02.520><c> a</c><00:02:02.680><c> review</c><00:02:03.040><c> triage</c><00:02:03.440><c> skill</c><00:02:03.800><c> source</c><00:02:04.120><c> those</c>
+
+00:02:04.310 --> 00:02:04.320 align:start position:0%
+Next, a review triage skill source those
+ 
+
+00:02:04.320 --> 00:02:06.630 align:start position:0%
+Next, a review triage skill source those
+reviews<00:02:04.680><c> to</c><00:02:04.800><c> classify</c><00:02:05.320><c> threads</c><00:02:06.000><c> into</c><00:02:06.320><c> three</c>
+
+00:02:06.630 --> 00:02:06.640 align:start position:0%
+reviews to classify threads into three
+ 
+
+00:02:06.640 --> 00:02:08.870 align:start position:0%
+reviews to classify threads into three
+different<00:02:07.040><c> categories.</c><00:02:07.960><c> Actionable</c><00:02:08.479><c> threads</c>
+
+00:02:08.870 --> 00:02:08.880 align:start position:0%
+different categories. Actionable threads
+ 
+
+00:02:08.880 --> 00:02:10.910 align:start position:0%
+different categories. Actionable threads
+that<00:02:09.119><c> get</c><00:02:09.399><c> fixed</c><00:02:09.800><c> and</c><00:02:10.039><c> pushed</c><00:02:10.360><c> automatically</c>
+
+00:02:10.910 --> 00:02:10.920 align:start position:0%
+that get fixed and pushed automatically
+ 
+
+00:02:10.920 --> 00:02:13.390 align:start position:0%
+that get fixed and pushed automatically
+without<00:02:11.240><c> human</c><00:02:11.520><c> input,</c><00:02:12.280><c> knits</c><00:02:12.680><c> for</c><00:02:13.000><c> smaller</c>
+
+00:02:13.390 --> 00:02:13.400 align:start position:0%
+without human input, knits for smaller
+ 
+
+00:02:13.400 --> 00:02:15.710 align:start position:0%
+without human input, knits for smaller
+things<00:02:13.760><c> like</c><00:02:14.040><c> style</c><00:02:14.440><c> comments,</c><00:02:15.040><c> which</c><00:02:15.280><c> are</c>
+
+00:02:15.710 --> 00:02:15.720 align:start position:0%
+things like style comments, which are
+ 
+
+00:02:15.720 --> 00:02:18.190 align:start position:0%
+things like style comments, which are
+resolved<00:02:16.240><c> and</c><00:02:16.400><c> replied</c><00:02:16.800><c> to</c><00:02:17.000><c> silently,</c><00:02:17.920><c> and</c>
+
+00:02:18.190 --> 00:02:18.200 align:start position:0%
+resolved and replied to silently, and
+ 
+
+00:02:18.200 --> 00:02:20.310 align:start position:0%
+resolved and replied to silently, and
+most<00:02:18.480><c> importantly,</c><00:02:19.160><c> ambiguous</c><00:02:19.760><c> threads</c><00:02:20.160><c> that</c>
+
+00:02:20.310 --> 00:02:20.320 align:start position:0%
+most importantly, ambiguous threads that
+ 
+
+00:02:20.320 --> 00:02:22.190 align:start position:0%
+most importantly, ambiguous threads that
+get<00:02:20.520><c> escalated</c><00:02:21.040><c> to</c><00:02:21.160><c> Paul</c><00:02:21.480><c> for</c><00:02:21.640><c> him</c><00:02:21.840><c> to</c><00:02:22.000><c> pair</c>
+
+00:02:22.190 --> 00:02:22.200 align:start position:0%
+get escalated to Paul for him to pair
+ 
+
+00:02:22.200 --> 00:02:24.670 align:start position:0%
+get escalated to Paul for him to pair
+with<00:02:22.320><c> an</c><00:02:22.480><c> agent</c><00:02:23.000><c> and</c><00:02:23.280><c> resolve.</c><00:02:24.000><c> This</c><00:02:24.200><c> system</c>
+
+00:02:24.670 --> 00:02:24.680 align:start position:0%
+with an agent and resolve. This system
+ 
+
+00:02:24.680 --> 00:02:26.790 align:start position:0%
+with an agent and resolve. This system
+runs<00:02:25.000><c> on</c><00:02:25.120><c> a</c><00:02:25.160><c> loop</c><00:02:25.480><c> up</c><00:02:25.640><c> to</c><00:02:25.760><c> three</c><00:02:26.000><c> times</c><00:02:26.440><c> until</c>
+
+00:02:26.790 --> 00:02:26.800 align:start position:0%
+runs on a loop up to three times until
+ 
+
+00:02:26.800 --> 00:02:29.190 align:start position:0%
+runs on a loop up to three times until
+no<00:02:26.959><c> new</c><00:02:27.200><c> actionable</c><00:02:27.680><c> threads</c><00:02:28.080><c> appear.</c><00:02:28.640><c> Now,</c>
+
+00:02:29.190 --> 00:02:29.200 align:start position:0%
+no new actionable threads appear. Now,
+ 
+
+00:02:29.200 --> 00:02:31.630 align:start position:0%
+no new actionable threads appear. Now,
+running<00:02:29.640><c> a</c><00:02:29.760><c> multi-agent</c><00:02:30.560><c> system</c><00:02:30.880><c> like</c><00:02:31.040><c> this,</c>
+
+00:02:31.630 --> 00:02:31.640 align:start position:0%
+running a multi-agent system like this,
+ 
+
+00:02:31.640 --> 00:02:34.230 align:start position:0%
+running a multi-agent system like this,
+well,<00:02:32.040><c> it</c><00:02:32.200><c> can</c><00:02:32.480><c> get</c><00:02:32.600><c> expensive.</c><00:02:33.240><c> Around</c><00:02:33.600><c> 60%</c>
+
+00:02:34.230 --> 00:02:34.240 align:start position:0%
+well, it can get expensive. Around 60%
+ 
+
+00:02:34.240 --> 00:02:35.990 align:start position:0%
+well, it can get expensive. Around 60%
+of<00:02:34.320><c> Pulse</c><00:02:34.600><c> token</c><00:02:34.920><c> spend</c><00:02:35.320><c> is</c><00:02:35.480><c> burned</c><00:02:35.800><c> on</c>
+
+00:02:35.990 --> 00:02:36.000 align:start position:0%
+of Pulse token spend is burned on
+ 
+
+00:02:36.000 --> 00:02:38.550 align:start position:0%
+of Pulse token spend is burned on
+automating<00:02:36.480><c> the</c><00:02:36.560><c> toil</c><00:02:37.000><c> of</c><00:02:37.400><c> handling</c><00:02:37.840><c> CI</c><00:02:38.320><c> and</c>
+
+00:02:38.550 --> 00:02:38.560 align:start position:0%
+automating the toil of handling CI and
+ 
+
+00:02:38.560 --> 00:02:41.070 align:start position:0%
+automating the toil of handling CI and
+review,<00:02:39.040><c> but</c><00:02:39.680><c> according</c><00:02:40.000><c> to</c><00:02:40.080><c> Paul,</c><00:02:40.600><c> it</c><00:02:40.800><c> saves</c>
+
+00:02:41.070 --> 00:02:41.080 align:start position:0%
+review, but according to Paul, it saves
+ 
+
+00:02:41.080 --> 00:02:43.030 align:start position:0%
+review, but according to Paul, it saves
+him<00:02:41.240><c> so</c><00:02:41.400><c> much</c><00:02:41.600><c> time</c><00:02:41.800><c> and</c><00:02:41.920><c> energy</c><00:02:42.320><c> that</c><00:02:42.880><c> he</c>
+
+00:02:43.030 --> 00:02:43.040 align:start position:0%
+him so much time and energy that he
+ 
+
+00:02:43.040 --> 00:02:45.270 align:start position:0%
+him so much time and energy that he
+doesn't<00:02:43.360><c> regret</c><00:02:43.800><c> a</c><00:02:43.880><c> single</c><00:02:44.200><c> dollar.</c><00:02:44.760><c> We</c><00:02:45.040><c> could</c>
+
+00:02:45.270 --> 00:02:45.280 align:start position:0%
+doesn't regret a single dollar. We could
+ 
+
+00:02:45.280 --> 00:02:47.550 align:start position:0%
+doesn't regret a single dollar. We could
+do<00:02:45.520><c> a</c><00:02:45.600><c> full</c><00:02:45.840><c> video</c><00:02:46.240><c> on</c><00:02:46.400><c> Paul's</c><00:02:46.680><c> review</c><00:02:46.920><c> skills,</c>
+
+00:02:47.550 --> 00:02:47.560 align:start position:0%
+do a full video on Paul's review skills,
+ 
+
+00:02:47.560 --> 00:02:49.270 align:start position:0%
+do a full video on Paul's review skills,
+so<00:02:47.880><c> let</c><00:02:48.080><c> us</c><00:02:48.200><c> know</c><00:02:48.360><c> in</c><00:02:48.440><c> the</c><00:02:48.520><c> comments</c><00:02:49.040><c> if</c><00:02:49.160><c> you'd</c>
+
+00:02:49.270 --> 00:02:49.280 align:start position:0%
+so let us know in the comments if you'd
+ 
+
+00:02:49.280 --> 00:02:51.110 align:start position:0%
+so let us know in the comments if you'd
+like<00:02:49.480><c> to</c><00:02:49.600><c> see</c><00:02:49.720><c> that.</c><00:02:50.120><c> There's</c><00:02:50.400><c> also</c><00:02:50.720><c> links</c><00:02:50.959><c> to</c>
+
+00:02:51.110 --> 00:02:51.120 align:start position:0%
+like to see that. There's also links to
+ 
+
+00:02:51.120 --> 00:02:53.390 align:start position:0%
+like to see that. There's also links to
+Pulse's<00:02:51.400><c> QA</c><00:02:51.760><c> Swarm</c><00:02:52.200><c> and</c><00:02:52.360><c> Review</c><00:02:52.640><c> Triage</c><00:02:53.040><c> skill</c>
+
+00:02:53.390 --> 00:02:53.400 align:start position:0%
+Pulse's QA Swarm and Review Triage skill
+ 
+
+00:02:53.400 --> 00:02:55.750 align:start position:0%
+Pulse's QA Swarm and Review Triage skill
+in<00:02:53.560><c> the</c><00:02:53.640><c> description,</c><00:02:54.600><c> and</c><00:02:55.040><c> there's</c><00:02:55.280><c> a</c><00:02:55.360><c> prompt</c>
+
+00:02:55.750 --> 00:02:55.760 align:start position:0%
+in the description, and there's a prompt
+ 
+
+00:02:55.760 --> 00:02:57.750 align:start position:0%
+in the description, and there's a prompt
+you<00:02:55.880><c> can</c><00:02:56.000><c> copy</c><00:02:56.480><c> and</c><00:02:56.640><c> adapt</c><00:02:57.000><c> to</c><00:02:57.120><c> create</c><00:02:57.560><c> your</c>
+
+00:02:57.750 --> 00:02:57.760 align:start position:0%
+you can copy and adapt to create your
+ 
+
+00:02:57.760 --> 00:02:59.830 align:start position:0%
+you can copy and adapt to create your
+own<00:02:58.000><c> review</c><00:02:58.320><c> skill.</c><00:02:58.920><c> If</c><00:02:59.080><c> you</c><00:02:59.200><c> can't</c><00:02:59.440><c> afford</c><00:02:59.720><c> to</c>
+
+00:02:59.830 --> 00:02:59.840 align:start position:0%
+own review skill. If you can't afford to
+ 
+
+00:02:59.840 --> 00:03:02.070 align:start position:0%
+own review skill. If you can't afford to
+run<00:03:00.040><c> a</c><00:03:00.080><c> multi-agent</c><00:03:00.800><c> system</c><00:03:01.160><c> like</c><00:03:01.360><c> this,</c><00:03:01.800><c> try</c>
+
+00:03:02.070 --> 00:03:02.080 align:start position:0%
+run a multi-agent system like this, try
+ 
+
+00:03:02.080 --> 00:03:04.550 align:start position:0%
+run a multi-agent system like this, try
+a<00:03:02.200><c> single-agent</c><00:03:02.920><c> design</c><00:03:03.360><c> like</c><00:03:03.600><c> No</c><00:03:03.800><c> Mistake,</c>
+
+00:03:04.550 --> 00:03:04.560 align:start position:0%
+a single-agent design like No Mistake,
+ 
+
+00:03:04.560 --> 00:03:06.790 align:start position:0%
+a single-agent design like No Mistake,
+an<00:03:04.800><c> MIT</c><00:03:05.280><c> licensed</c><00:03:05.760><c> tool</c><00:03:06.000><c> that</c><00:03:06.239><c> acts</c><00:03:06.480><c> like</c><00:03:06.640><c> an</c>
+
+00:03:06.790 --> 00:03:06.800 align:start position:0%
+an MIT licensed tool that acts like an
+ 
+
+00:03:06.800 --> 00:03:09.390 align:start position:0%
+an MIT licensed tool that acts like an
+AI-powered<00:03:07.440><c> quality</c><00:03:07.840><c> gate</c><00:03:08.120><c> between</c><00:03:08.560><c> you</c><00:03:09.040><c> and</c>
+
+00:03:09.390 --> 00:03:09.400 align:start position:0%
+AI-powered quality gate between you and
+ 
+
+00:03:09.400 --> 00:03:12.070 align:start position:0%
+AI-powered quality gate between you and
+your<00:03:09.760><c> Git</c><00:03:10.000><c> remote.</c><00:03:10.920><c> The</c><00:03:11.040><c> next</c><00:03:11.400><c> big</c><00:03:11.680><c> problem</c>
+
+00:03:12.070 --> 00:03:12.080 align:start position:0%
+your Git remote. The next big problem
+ 
+
+00:03:12.080 --> 00:03:14.070 align:start position:0%
+your Git remote. The next big problem
+you<00:03:12.160><c> need</c><00:03:12.320><c> to</c><00:03:12.440><c> solve</c><00:03:12.800><c> is</c><00:03:12.959><c> context</c><00:03:13.480><c> switching.</c>
+
+00:03:14.070 --> 00:03:14.080 align:start position:0%
+you need to solve is context switching.
+ 
+
+00:03:14.080 --> 00:03:16.630 align:start position:0%
+you need to solve is context switching.
+It's<00:03:14.360><c> a</c><00:03:14.600><c> silent</c><00:03:15.080><c> productivity</c><00:03:15.680><c> killer,</c><00:03:16.160><c> and</c>
+
+00:03:16.630 --> 00:03:16.640 align:start position:0%
+It's a silent productivity killer, and
+ 
+
+00:03:16.640 --> 00:03:19.110 align:start position:0%
+It's a silent productivity killer, and
+coding<00:03:17.040><c> with</c><00:03:17.320><c> AI</c><00:03:17.640><c> forces</c><00:03:18.120><c> this</c><00:03:18.400><c> on</c><00:03:18.560><c> us</c><00:03:18.840><c> all</c><00:03:19.000><c> the</c>
+
+00:03:19.110 --> 00:03:19.120 align:start position:0%
+coding with AI forces this on us all the
+ 
+
+00:03:19.120 --> 00:03:21.830 align:start position:0%
+coding with AI forces this on us all the
+time.<00:03:19.840><c> One</c><00:03:20.120><c> solution</c><00:03:20.640><c> is</c><00:03:20.840><c> to</c><00:03:21.000><c> pair</c><00:03:21.360><c> a</c><00:03:21.440><c> review</c>
+
+00:03:21.830 --> 00:03:21.840 align:start position:0%
+time. One solution is to pair a review
+ 
+
+00:03:21.840 --> 00:03:24.550 align:start position:0%
+time. One solution is to pair a review
+loop<00:03:22.040><c> like</c><00:03:22.280><c> Paul's</c><00:03:23.040><c> with</c><00:03:23.440><c> a</c><00:03:23.519><c> PR</c><00:03:23.959><c> babysitting</c>
+
+00:03:24.550 --> 00:03:24.560 align:start position:0%
+loop like Paul's with a PR babysitting
+ 
+
+00:03:24.560 --> 00:03:27.150 align:start position:0%
+loop like Paul's with a PR babysitting
+skill<00:03:25.160><c> like</c><00:03:25.360><c> the</c><00:03:25.480><c> one</c><00:03:25.720><c> created</c><00:03:26.160><c> by</c><00:03:26.280><c> Phil</c><00:03:26.560><c> Hack</c>
+
+00:03:27.150 --> 00:03:27.160 align:start position:0%
+skill like the one created by Phil Hack
+ 
+
+00:03:27.160 --> 00:03:29.310 align:start position:0%
+skill like the one created by Phil Hack
+on<00:03:27.320><c> our</c><00:03:27.440><c> feature</c><00:03:27.720><c> flags</c><00:03:28.080><c> team.</c><00:03:28.480><c> His</c><00:03:28.760><c> babysit</c>
+
+00:03:29.310 --> 00:03:29.320 align:start position:0%
+on our feature flags team. His babysit
+ 
+
+00:03:29.320 --> 00:03:31.949 align:start position:0%
+on our feature flags team. His babysit
+PR<00:03:29.640><c> skill</c><00:03:30.080><c> eliminates</c><00:03:30.560><c> context</c><00:03:31.080><c> switching</c><00:03:31.760><c> by</c>
+
+00:03:31.949 --> 00:03:31.959 align:start position:0%
+PR skill eliminates context switching by
+ 
+
+00:03:31.959 --> 00:03:34.590 align:start position:0%
+PR skill eliminates context switching by
+regularly<00:03:32.560><c> checking</c><00:03:33.040><c> all</c><00:03:33.239><c> of</c><00:03:33.320><c> his</c><00:03:33.519><c> open</c><00:03:33.800><c> PRs</c>
+
+00:03:34.590 --> 00:03:34.600 align:start position:0%
+regularly checking all of his open PRs
+ 
+
+00:03:34.600 --> 00:03:37.630 align:start position:0%
+regularly checking all of his open PRs
+and<00:03:34.920><c> classifying</c><00:03:35.560><c> them</c><00:03:35.880><c> as</c><00:03:36.040><c> either</c><00:03:36.320><c> quiet,</c><00:03:37.160><c> CI</c>
+
+00:03:37.630 --> 00:03:37.640 align:start position:0%
+and classifying them as either quiet, CI
+ 
+
+00:03:37.640 --> 00:03:40.670 align:start position:0%
+and classifying them as either quiet, CI
+failing,<00:03:38.239><c> or</c><00:03:38.440><c> pending,</c><00:03:39.160><c> or</c><00:03:39.560><c> new</c><00:03:39.840><c> comments.</c><00:03:40.480><c> If</c>
+
+00:03:40.670 --> 00:03:40.680 align:start position:0%
+failing, or pending, or new comments. If
+ 
+
+00:03:40.680 --> 00:03:42.430 align:start position:0%
+failing, or pending, or new comments. If
+CI<00:03:41.080><c> is</c><00:03:41.280><c> failing,</c><00:03:41.880><c> you</c><00:03:41.959><c> can</c><00:03:42.080><c> call</c><00:03:42.320><c> the</c>
+
+00:03:42.430 --> 00:03:42.440 align:start position:0%
+CI is failing, you can call the
+ 
+
+00:03:42.440 --> 00:03:44.870 align:start position:0%
+CI is failing, you can call the
+dedicated<00:03:43.120><c> CI</c><00:03:43.480><c> monitor</c><00:03:43.959><c> skill</c><00:03:44.320><c> to</c><00:03:44.519><c> resolve</c>
+
+00:03:44.870 --> 00:03:44.880 align:start position:0%
+dedicated CI monitor skill to resolve
+ 
+
+00:03:44.880 --> 00:03:46.830 align:start position:0%
+dedicated CI monitor skill to resolve
+it.<00:03:45.280><c> You</c><00:03:45.440><c> can</c><00:03:45.600><c> use</c><00:03:45.800><c> the</c><00:03:45.920><c> loop</c><00:03:46.160><c> command</c><00:03:46.560><c> to</c><00:03:46.640><c> turn</c>
+
+00:03:46.830 --> 00:03:46.840 align:start position:0%
+it. You can use the loop command to turn
+ 
+
+00:03:46.840 --> 00:03:48.710 align:start position:0%
+it. You can use the loop command to turn
+this<00:03:47.040><c> into</c><00:03:47.280><c> a</c><00:03:47.360><c> cron</c><00:03:47.600><c> job</c><00:03:47.880><c> that</c><00:03:48.120><c> runs</c><00:03:48.480><c> at</c>
+
+00:03:48.710 --> 00:03:48.720 align:start position:0%
+this into a cron job that runs at
+ 
+
+00:03:48.720 --> 00:03:50.949 align:start position:0%
+this into a cron job that runs at
+regular<00:03:49.160><c> intervals,</c><00:03:49.959><c> ensuring</c><00:03:50.480><c> that</c><00:03:50.800><c> all</c>
+
+00:03:50.949 --> 00:03:50.959 align:start position:0%
+regular intervals, ensuring that all
+ 
+
+00:03:50.959 --> 00:03:53.550 align:start position:0%
+regular intervals, ensuring that all
+your<00:03:51.200><c> open</c><00:03:51.480><c> PRs</c><00:03:52.000><c> are</c><00:03:52.200><c> in</c><00:03:52.400><c> a</c><00:03:52.440><c> mergeable</c><00:03:52.880><c> state</c>
+
+00:03:53.550 --> 00:03:53.560 align:start position:0%
+your open PRs are in a mergeable state
+ 
+
+00:03:53.560 --> 00:03:55.110 align:start position:0%
+your open PRs are in a mergeable state
+without<00:03:53.920><c> you</c><00:03:54.000><c> having</c><00:03:54.280><c> to</c><00:03:54.400><c> check</c><00:03:54.680><c> them</c><00:03:54.960><c> by</c>
+
+00:03:55.110 --> 00:03:55.120 align:start position:0%
+without you having to check them by
+ 
+
+00:03:55.120 --> 00:03:57.270 align:start position:0%
+without you having to check them by
+hand.<00:03:55.640><c> Now,</c><00:03:56.120><c> the</c><00:03:56.240><c> next</c><00:03:56.480><c> thing</c><00:03:56.640><c> you</c><00:03:56.720><c> need</c><00:03:57.080><c> is</c><00:03:57.200><c> a</c>
+
+00:03:57.270 --> 00:03:57.280 align:start position:0%
+hand. Now, the next thing you need is a
+ 
+
+00:03:57.280 --> 00:03:59.990 align:start position:0%
+hand. Now, the next thing you need is a
+system<00:03:57.720><c> for</c><00:03:57.880><c> stamping</c><00:03:58.640><c> small,</c><00:03:59.280><c> low-risk</c><00:03:59.840><c> pull</c>
+
+00:03:59.990 --> 00:04:00.000 align:start position:0%
+system for stamping small, low-risk pull
+ 
+
+00:04:00.000 --> 00:04:02.390 align:start position:0%
+system for stamping small, low-risk pull
+request.<00:04:00.800><c> We</c><00:04:01.200><c> used</c><00:04:01.440><c> to</c><00:04:01.560><c> handle</c><00:04:01.840><c> this</c><00:04:02.080><c> inside</c>
+
+00:04:02.390 --> 00:04:02.400 align:start position:0%
+request. We used to handle this inside
+ 
+
+00:04:02.400 --> 00:04:04.670 align:start position:0%
+request. We used to handle this inside
+of<00:04:02.520><c> our</c><00:04:02.600><c> Slack</c><00:04:02.960><c> channel,</c><00:04:03.480><c> and</c><00:04:04.000><c> we</c><00:04:04.240><c> even</c><00:04:04.440><c> had</c><00:04:04.600><c> a</c>
+
+00:04:04.670 --> 00:04:04.680 align:start position:0%
+of our Slack channel, and we even had a
+ 
+
+00:04:04.680 --> 00:04:06.270 align:start position:0%
+of our Slack channel, and we even had a
+leaderboard<00:04:05.200><c> that</c><00:04:05.360><c> kept</c><00:04:05.560><c> track</c><00:04:05.880><c> of</c><00:04:05.960><c> the</c><00:04:06.040><c> most</c>
+
+00:04:06.270 --> 00:04:06.280 align:start position:0%
+leaderboard that kept track of the most
+ 
+
+00:04:06.280 --> 00:04:08.550 align:start position:0%
+leaderboard that kept track of the most
+helpful<00:04:06.640><c> engineers,</c><00:04:07.360><c> but</c><00:04:07.720><c> we</c><00:04:07.880><c> built</c><00:04:08.120><c> a</c><00:04:08.200><c> Stamp</c>
+
+00:04:08.550 --> 00:04:08.560 align:start position:0%
+helpful engineers, but we built a Stamp
+ 
+
+00:04:08.560 --> 00:04:10.310 align:start position:0%
+helpful engineers, but we built a Stamp
+Hog<00:04:08.800><c> agent</c><00:04:09.160><c> to</c><00:04:09.280><c> lighten</c><00:04:09.560><c> the</c><00:04:09.640><c> load.</c><00:04:10.080><c> How</c><00:04:10.200><c> it</c>
+
+00:04:10.310 --> 00:04:10.320 align:start position:0%
+Hog agent to lighten the load. How it
+ 
+
+00:04:10.320 --> 00:04:12.390 align:start position:0%
+Hog agent to lighten the load. How it
+works<00:04:10.640><c> is</c><00:04:10.920><c> our</c><00:04:11.080><c> engineers</c><00:04:11.640><c> add</c><00:04:11.800><c> a</c><00:04:11.840><c> Stamp</c><00:04:12.200><c> Hog</c>
+
+00:04:12.390 --> 00:04:12.400 align:start position:0%
+works is our engineers add a Stamp Hog
+ 
+
+00:04:12.400 --> 00:04:14.590 align:start position:0%
+works is our engineers add a Stamp Hog
+label<00:04:12.720><c> to</c><00:04:12.840><c> their</c><00:04:13.000><c> pull</c><00:04:13.200><c> request</c><00:04:13.640><c> on</c><00:04:13.840><c> GitHub,</c>
+
+00:04:14.590 --> 00:04:14.600 align:start position:0%
+label to their pull request on GitHub,
+ 
+
+00:04:14.600 --> 00:04:16.830 align:start position:0%
+label to their pull request on GitHub,
+and<00:04:14.920><c> it</c><00:04:15.120><c> runs</c><00:04:15.440><c> a</c><00:04:15.560><c> safety</c><00:04:16.000><c> check</c><00:04:16.320><c> before</c>
+
+00:04:16.830 --> 00:04:16.840 align:start position:0%
+and it runs a safety check before
+ 
+
+00:04:16.840 --> 00:04:19.229 align:start position:0%
+and it runs a safety check before
+anything<00:04:17.359><c> is</c><00:04:17.519><c> approved.</c><00:04:18.239><c> First,</c><00:04:18.680><c> it</c><00:04:18.920><c> checks</c>
+
+00:04:19.229 --> 00:04:19.239 align:start position:0%
+anything is approved. First, it checks
+ 
+
+00:04:19.239 --> 00:04:21.590 align:start position:0%
+anything is approved. First, it checks
+the<00:04:19.359><c> PR</c><00:04:19.720><c> state</c><00:04:20.200><c> to</c><00:04:20.440><c> ensure</c><00:04:20.840><c> that</c><00:04:21.359><c> pull</c>
+
+00:04:21.590 --> 00:04:21.600 align:start position:0%
+the PR state to ensure that pull
+ 
+
+00:04:21.600 --> 00:04:23.430 align:start position:0%
+the PR state to ensure that pull
+requests<00:04:22.120><c> are</c><00:04:22.320><c> ready</c><00:04:22.560><c> to</c><00:04:22.680><c> be</c><00:04:22.800><c> merged</c><00:04:23.200><c> by</c>
+
+00:04:23.430 --> 00:04:23.440 align:start position:0%
+requests are ready to be merged by
+ 
+
+00:04:23.440 --> 00:04:25.950 align:start position:0%
+requests are ready to be merged by
+looking<00:04:23.800><c> for</c><00:04:24.400><c> requested</c><00:04:24.919><c> changes</c><00:04:25.520><c> and</c><00:04:25.800><c> any</c>
+
+00:04:25.950 --> 00:04:25.960 align:start position:0%
+looking for requested changes and any
+ 
+
+00:04:25.960 --> 00:04:28.590 align:start position:0%
+looking for requested changes and any
+merge<00:04:26.280><c> conflicts.</c><00:04:27.200><c> Then,</c><00:04:27.600><c> it</c><00:04:27.880><c> analyzes</c><00:04:28.480><c> the</c>
+
+00:04:28.590 --> 00:04:28.600 align:start position:0%
+merge conflicts. Then, it analyzes the
+ 
+
+00:04:28.600 --> 00:04:31.390 align:start position:0%
+merge conflicts. Then, it analyzes the
+blast<00:04:29.000><c> radius,</c><00:04:29.600><c> which</c><00:04:29.919><c> is</c><00:04:30.160><c> a</c><00:04:30.560><c> deterministic</c>
+
+00:04:31.390 --> 00:04:31.400 align:start position:0%
+blast radius, which is a deterministic
+ 
+
+00:04:31.400 --> 00:04:34.310 align:start position:0%
+blast radius, which is a deterministic
+deny<00:04:31.800><c> list.</c><00:04:32.280><c> So,</c><00:04:32.880><c> it</c><00:04:33.080><c> checks</c><00:04:33.360><c> if</c><00:04:33.480><c> the</c><00:04:33.600><c> files</c><00:04:34.120><c> it</c>
+
+00:04:34.310 --> 00:04:34.320 align:start position:0%
+deny list. So, it checks if the files it
+ 
+
+00:04:34.320 --> 00:04:36.390 align:start position:0%
+deny list. So, it checks if the files it
+touches<00:04:34.800><c> match</c><00:04:35.160><c> any</c><00:04:35.440><c> list</c><00:04:35.800><c> of</c><00:04:35.919><c> sensitive</c>
+
+00:04:36.390 --> 00:04:36.400 align:start position:0%
+touches match any list of sensitive
+ 
+
+00:04:36.400 --> 00:04:39.470 align:start position:0%
+touches match any list of sensitive
+areas<00:04:37.120><c> such</c><00:04:37.480><c> as</c><00:04:37.760><c> auth,</c><00:04:38.200><c> secrets,</c><00:04:38.840><c> billing,</c>
+
+00:04:39.470 --> 00:04:39.480 align:start position:0%
+areas such as auth, secrets, billing,
+ 
+
+00:04:39.480 --> 00:04:41.550 align:start position:0%
+areas such as auth, secrets, billing,
+and<00:04:39.680><c> so</c><00:04:39.919><c> on.</c><00:04:40.200><c> It</c><00:04:40.360><c> also</c><00:04:40.600><c> checks</c><00:04:40.880><c> the</c><00:04:41.000><c> diff</c><00:04:41.240><c> size</c>
+
+00:04:41.550 --> 00:04:41.560 align:start position:0%
+and so on. It also checks the diff size
+ 
+
+00:04:41.560 --> 00:04:43.270 align:start position:0%
+and so on. It also checks the diff size
+to<00:04:41.680><c> ensure</c><00:04:42.000><c> that</c><00:04:42.160><c> the</c><00:04:42.240><c> pull</c><00:04:42.440><c> request</c><00:04:42.840><c> is</c><00:04:43.000><c> under</c>
+
+00:04:43.270 --> 00:04:43.280 align:start position:0%
+to ensure that the pull request is under
+ 
+
+00:04:43.280 --> 00:04:46.310 align:start position:0%
+to ensure that the pull request is under
+500<00:04:43.800><c> lines</c><00:04:44.000><c> of</c><00:04:44.120><c> code</c><00:04:44.720><c> and</c><00:04:45.040><c> is</c><00:04:45.240><c> under</c><00:04:45.520><c> 20</c><00:04:45.880><c> files</c>
+
+00:04:46.310 --> 00:04:46.320 align:start position:0%
+500 lines of code and is under 20 files
+ 
+
+00:04:46.320 --> 00:04:48.270 align:start position:0%
+500 lines of code and is under 20 files
+changed.<00:04:46.960><c> Only</c><00:04:47.160><c> if</c><00:04:47.280><c> it</c><00:04:47.400><c> clears</c><00:04:47.800><c> all</c><00:04:47.960><c> three</c>
+
+00:04:48.270 --> 00:04:48.280 align:start position:0%
+changed. Only if it clears all three
+ 
+
+00:04:48.280 --> 00:04:50.470 align:start position:0%
+changed. Only if it clears all three
+does<00:04:48.480><c> an</c><00:04:48.640><c> LLM</c><00:04:49.120><c> actually</c><00:04:49.520><c> read</c><00:04:49.760><c> the</c><00:04:50.000><c> diff</c>
+
+00:04:50.470 --> 00:04:50.480 align:start position:0%
+does an LLM actually read the diff
+ 
+
+00:04:50.480 --> 00:04:52.990 align:start position:0%
+does an LLM actually read the diff
+looking<00:04:50.840><c> for</c><00:04:51.200><c> showstoppers.</c><00:04:52.320><c> If</c><00:04:52.520><c> an</c><00:04:52.680><c> agent</c>
+
+00:04:52.990 --> 00:04:53.000 align:start position:0%
+looking for showstoppers. If an agent
+ 
+
+00:04:53.000 --> 00:04:54.870 align:start position:0%
+looking for showstoppers. If an agent
+approves,<00:04:53.560><c> it</c><00:04:53.800><c> leaves</c><00:04:54.160><c> a</c><00:04:54.240><c> bare</c><00:04:54.560><c> GitHub</c>
+
+00:04:54.870 --> 00:04:54.880 align:start position:0%
+approves, it leaves a bare GitHub
+ 
+
+00:04:54.880 --> 00:04:57.110 align:start position:0%
+approves, it leaves a bare GitHub
+approval<00:04:55.640><c> with</c><00:04:55.840><c> no</c><00:04:56.000><c> line</c><00:04:56.280><c> comments.</c>
+
+00:04:57.110 --> 00:04:57.120 align:start position:0%
+approval with no line comments.
+ 
+
+00:04:57.120 --> 00:04:59.830 align:start position:0%
+approval with no line comments.
+Otherwise,<00:04:57.880><c> it</c><00:04:58.120><c> refuses</c><00:04:58.760><c> or</c><00:04:59.120><c> escalates</c><00:04:59.720><c> with</c>
+
+00:04:59.830 --> 00:04:59.840 align:start position:0%
+Otherwise, it refuses or escalates with
+ 
+
+00:04:59.840 --> 00:05:02.230 align:start position:0%
+Otherwise, it refuses or escalates with
+a<00:04:59.919><c> one-to-two</c><00:05:00.480><c> sentence</c><00:05:00.960><c> reason,</c><00:05:01.640><c> risk</c><00:05:01.960><c> level</c>
+
+00:05:02.230 --> 00:05:02.240 align:start position:0%
+a one-to-two sentence reason, risk level
+ 
+
+00:05:02.240 --> 00:05:04.630 align:start position:0%
+a one-to-two sentence reason, risk level
+rating,<00:05:02.880><c> and</c><00:05:03.200><c> next</c><00:05:03.520><c> steps,</c><00:05:03.919><c> which</c><00:05:04.240><c> typically</c>
+
+00:05:04.630 --> 00:05:04.640 align:start position:0%
+rating, and next steps, which typically
+ 
+
+00:05:04.640 --> 00:05:06.950 align:start position:0%
+rating, and next steps, which typically
+mean<00:05:04.960><c> tagging</c><00:05:05.440><c> a</c><00:05:05.520><c> subject</c><00:05:06.000><c> matter</c><00:05:06.320><c> expert.</c>
+
+00:05:06.950 --> 00:05:06.960 align:start position:0%
+mean tagging a subject matter expert.
+ 
+
+00:05:06.960 --> 00:05:09.310 align:start position:0%
+mean tagging a subject matter expert.
+Stamp<00:05:07.280><c> Hog</c><00:05:07.480><c> resolves</c><00:05:07.919><c> more</c><00:05:08.120><c> than</c><00:05:08.280><c> 1,500</c><00:05:09.120><c> pull</c>
+
+00:05:09.310 --> 00:05:09.320 align:start position:0%
+Stamp Hog resolves more than 1,500 pull
+ 
+
+00:05:09.320 --> 00:05:12.150 align:start position:0%
+Stamp Hog resolves more than 1,500 pull
+requests<00:05:09.800><c> every</c><00:05:10.080><c> month.</c><00:05:10.680><c> That's</c><00:05:11.080><c> 1,500</c><00:05:11.880><c> fewer</c>
+
+00:05:12.150 --> 00:05:12.160 align:start position:0%
+requests every month. That's 1,500 fewer
+ 
+
+00:05:12.160 --> 00:05:14.870 align:start position:0%
+requests every month. That's 1,500 fewer
+Slack<00:05:12.520><c> interruptions</c><00:05:13.440><c> for</c><00:05:13.800><c> our</c><00:05:14.000><c> engineers.</c>
+
+00:05:14.870 --> 00:05:14.880 align:start position:0%
+Slack interruptions for our engineers.
+ 
+
+00:05:14.880 --> 00:05:16.590 align:start position:0%
+Slack interruptions for our engineers.
+Many<00:05:15.160><c> of</c><00:05:15.280><c> the</c><00:05:15.400><c> inner</c><00:05:15.600><c> workings</c><00:05:15.960><c> of</c><00:05:16.040><c> Stamp</c><00:05:16.320><c> Hog</c>
+
+00:05:16.590 --> 00:05:16.600 align:start position:0%
+Many of the inner workings of Stamp Hog
+ 
+
+00:05:16.600 --> 00:05:18.830 align:start position:0%
+Many of the inner workings of Stamp Hog
+are<00:05:16.800><c> specific</c><00:05:17.280><c> to</c><00:05:17.360><c> Post</c><00:05:17.640><c> Hog,</c><00:05:17.880><c> but</c><00:05:18.480><c> you</c><00:05:18.640><c> can</c>
+
+00:05:18.830 --> 00:05:18.840 align:start position:0%
+are specific to Post Hog, but you can
+ 
+
+00:05:18.840 --> 00:05:21.909 align:start position:0%
+are specific to Post Hog, but you can
+use<00:05:19.000><c> a</c><00:05:19.080><c> prompt</c><00:05:19.440><c> to</c><00:05:19.520><c> copy</c><00:05:19.800><c> the</c><00:05:21.200><c> adapt</c><00:05:21.640><c> it</c><00:05:21.800><c> to</c>
+
+00:05:21.909 --> 00:05:21.919 align:start position:0%
+use a prompt to copy the adapt it to
+ 
+
+00:05:21.919 --> 00:05:23.310 align:start position:0%
+use a prompt to copy the adapt it to
+your<00:05:22.120><c> needs.</c>
+
+00:05:23.310 --> 00:05:23.320 align:start position:0%
+your needs.
+ 
+
+00:05:23.320 --> 00:05:25.230 align:start position:0%
+your needs.
+Our<00:05:23.440><c> final</c><00:05:23.720><c> tip</c><00:05:24.000><c> is</c><00:05:24.160><c> arguably</c><00:05:24.680><c> the</c><00:05:24.840><c> most</c>
+
+00:05:25.230 --> 00:05:25.240 align:start position:0%
+Our final tip is arguably the most
+ 
+
+00:05:25.240 --> 00:05:27.790 align:start position:0%
+Our final tip is arguably the most
+important.<00:05:26.120><c> Agents</c><00:05:26.600><c> are</c><00:05:26.760><c> good</c><00:05:27.000><c> at</c><00:05:27.080><c> explaining</c>
+
+00:05:27.790 --> 00:05:27.800 align:start position:0%
+important. Agents are good at explaining
+ 
+
+00:05:27.800 --> 00:05:29.909 align:start position:0%
+important. Agents are good at explaining
+why<00:05:28.000><c> their</c><00:05:28.200><c> code</c><00:05:28.480><c> works</c><00:05:29.200><c> even</c><00:05:29.480><c> when</c><00:05:29.800><c> it</c>
+
+00:05:29.909 --> 00:05:29.919 align:start position:0%
+why their code works even when it
+ 
+
+00:05:29.919 --> 00:05:32.110 align:start position:0%
+why their code works even when it
+doesn't.<00:05:30.560><c> That's</c><00:05:30.880><c> why</c><00:05:31.080><c> you</c><00:05:31.240><c> should</c><00:05:31.440><c> verify</c><00:05:31.919><c> by</c>
+
+00:05:32.110 --> 00:05:32.120 align:start position:0%
+doesn't. That's why you should verify by
+ 
+
+00:05:32.120 --> 00:05:34.550 align:start position:0%
+doesn't. That's why you should verify by
+observation,<00:05:33.240><c> not</c><00:05:33.640><c> by</c>
+
+00:05:34.550 --> 00:05:34.560 align:start position:0%
+observation, not by
+ 
+
+00:05:34.560 --> 00:05:36.470 align:start position:0%
+observation, not by
+Why<00:05:34.840><c> accept</c><00:05:35.280><c> an</c><00:05:35.400><c> argument</c><00:05:35.880><c> that</c><00:05:36.080><c> the</c><00:05:36.160><c> code</c>
+
+00:05:36.470 --> 00:05:36.480 align:start position:0%
+Why accept an argument that the code
+ 
+
+00:05:36.480 --> 00:05:39.070 align:start position:0%
+Why accept an argument that the code
+works<00:05:37.000><c> when</c><00:05:37.400><c> you</c><00:05:37.560><c> can</c><00:05:37.760><c> just</c><00:05:38.080><c> watch</c><00:05:38.360><c> it.</c><00:05:38.800><c> The</c>
+
+00:05:39.070 --> 00:05:39.080 align:start position:0%
+works when you can just watch it. The
+ 
+
+00:05:39.080 --> 00:05:40.630 align:start position:0%
+works when you can just watch it. The
+gold<00:05:39.360><c> standard</c><00:05:39.840><c> is</c><00:05:40.040><c> something</c><00:05:40.400><c> you</c><00:05:40.480><c> can</c>
+
+00:05:40.630 --> 00:05:40.640 align:start position:0%
+gold standard is something you can
+ 
+
+00:05:40.640 --> 00:05:43.710 align:start position:0%
+gold standard is something you can
+observe<00:05:41.080><c> directly</c><00:05:41.640><c> like</c><00:05:42.200><c> sending</c><00:05:42.760><c> a</c><00:05:42.919><c> real</c><00:05:43.280><c> API</c>
+
+00:05:43.710 --> 00:05:43.720 align:start position:0%
+observe directly like sending a real API
+ 
+
+00:05:43.720 --> 00:05:46.630 align:start position:0%
+observe directly like sending a real API
+request<00:05:44.320><c> or</c><00:05:44.840><c> reading</c><00:05:45.240><c> a</c><00:05:45.400><c> response</c><00:05:46.040><c> directly.</c>
+
+00:05:46.630 --> 00:05:46.640 align:start position:0%
+request or reading a response directly.
+ 
+
+00:05:46.640 --> 00:05:48.270 align:start position:0%
+request or reading a response directly.
+If<00:05:46.800><c> the</c><00:05:46.880><c> behavior</c><00:05:47.440><c> is</c><00:05:47.640><c> right</c><00:05:47.840><c> in</c><00:05:47.960><c> front</c><00:05:48.160><c> of</c>
+
+00:05:48.270 --> 00:05:48.280 align:start position:0%
+If the behavior is right in front of
+ 
+
+00:05:48.280 --> 00:05:50.230 align:start position:0%
+If the behavior is right in front of
+you,<00:05:48.760><c> you</c><00:05:48.840><c> don't</c><00:05:49.040><c> have</c><00:05:49.200><c> to</c><00:05:49.320><c> trust</c><00:05:49.680><c> an</c><00:05:49.880><c> agent's</c>
+
+00:05:50.230 --> 00:05:50.240 align:start position:0%
+you, you don't have to trust an agent's
+ 
+
+00:05:50.240 --> 00:05:53.150 align:start position:0%
+you, you don't have to trust an agent's
+rationale<00:05:50.920><c> at</c><00:05:51.080><c> all.</c><00:05:51.440><c> But,</c><00:05:52.000><c> this</c><00:05:52.440><c> also</c><00:05:52.800><c> does</c>
+
+00:05:53.150 --> 00:05:53.160 align:start position:0%
+rationale at all. But, this also does
+ 
+
+00:05:53.160 --> 00:05:54.990 align:start position:0%
+rationale at all. But, this also does
+have<00:05:53.480><c> a</c><00:05:53.560><c> scaling</c><00:05:54.040><c> problem</c><00:05:54.520><c> since</c><00:05:54.920><c> a</c>
+
+00:05:54.990 --> 00:05:55.000 align:start position:0%
+have a scaling problem since a
+ 
+
+00:05:55.000 --> 00:05:57.150 align:start position:0%
+have a scaling problem since a
+3,000-line<00:05:55.840><c> pull</c><00:05:56.040><c> request</c><00:05:56.840><c> would</c><00:05:57.040><c> be</c>
+
+00:05:57.150 --> 00:05:57.160 align:start position:0%
+3,000-line pull request would be
+ 
+
+00:05:57.160 --> 00:05:59.070 align:start position:0%
+3,000-line pull request would be
+challenging<00:05:57.680><c> to</c><00:05:57.800><c> trust</c><00:05:58.240><c> and</c><00:05:58.480><c> observe.</c>
+
+00:05:59.070 --> 00:05:59.080 align:start position:0%
+challenging to trust and observe.
+ 
+
+00:05:59.080 --> 00:06:00.910 align:start position:0%
+challenging to trust and observe.
+Daniel's<00:05:59.520><c> approach</c><00:05:59.960><c> is</c><00:06:00.120><c> to</c><00:06:00.240><c> make</c><00:06:00.480><c> agents</c>
+
+00:06:00.910 --> 00:06:00.920 align:start position:0%
+Daniel's approach is to make agents
+ 
+
+00:06:00.920 --> 00:06:03.390 align:start position:0%
+Daniel's approach is to make agents
+decompose<00:06:01.640><c> the</c><00:06:01.760><c> work.</c><00:06:02.280><c> For</c><00:06:02.600><c> large</c><00:06:02.920><c> changes</c>
+
+00:06:03.390 --> 00:06:03.400 align:start position:0%
+decompose the work. For large changes
+ 
+
+00:06:03.400 --> 00:06:05.550 align:start position:0%
+decompose the work. For large changes
+like<00:06:03.920><c> building</c><00:06:04.360><c> a</c><00:06:04.480><c> metrics</c><00:06:04.960><c> pipeline</c>
+
+00:06:05.550 --> 00:06:05.560 align:start position:0%
+like building a metrics pipeline
+ 
+
+00:06:05.560 --> 00:06:07.870 align:start position:0%
+like building a metrics pipeline
+end-to-end,<00:06:06.520><c> he</c><00:06:06.720><c> instructs</c><00:06:07.200><c> the</c><00:06:07.360><c> agents</c><00:06:07.720><c> to</c>
+
+00:06:07.870 --> 00:06:07.880 align:start position:0%
+end-to-end, he instructs the agents to
+ 
+
+00:06:07.880 --> 00:06:10.270 align:start position:0%
+end-to-end, he instructs the agents to
+produce<00:06:08.280><c> a</c><00:06:08.400><c> stack</c><00:06:08.840><c> of</c><00:06:09.000><c> small,</c><00:06:09.520><c> single-purpose</c>
+
+00:06:10.270 --> 00:06:10.280 align:start position:0%
+produce a stack of small, single-purpose
+ 
+
+00:06:10.280 --> 00:06:13.030 align:start position:0%
+produce a stack of small, single-purpose
+pull<00:06:10.480><c> request</c><00:06:11.360><c> and</c><00:06:11.520><c> then</c><00:06:11.760><c> uses</c><00:06:12.120><c> Graphite</c><00:06:12.720><c> for</c>
+
+00:06:13.030 --> 00:06:13.040 align:start position:0%
+pull request and then uses Graphite for
+ 
+
+00:06:13.040 --> 00:06:15.430 align:start position:0%
+pull request and then uses Graphite for
+its<00:06:13.240><c> stacking</c><00:06:13.760><c> functionality.</c><00:06:14.800><c> This</c><00:06:15.040><c> makes</c>
+
+00:06:15.430 --> 00:06:15.440 align:start position:0%
+its stacking functionality. This makes
+ 
+
+00:06:15.440 --> 00:06:17.830 align:start position:0%
+its stacking functionality. This makes
+each<00:06:15.720><c> diff</c><00:06:16.000><c> independently</c><00:06:16.640><c> runnable</c><00:06:17.440><c> and</c>
+
+00:06:17.830 --> 00:06:17.840 align:start position:0%
+each diff independently runnable and
+ 
+
+00:06:17.840 --> 00:06:20.070 align:start position:0%
+each diff independently runnable and
+observable.<00:06:18.600><c> At</c><00:06:18.840><c> each</c><00:06:19.080><c> step</c><00:06:19.360><c> of</c><00:06:19.480><c> the</c><00:06:19.560><c> stack,</c>
+
+00:06:20.070 --> 00:06:20.080 align:start position:0%
+observable. At each step of the stack,
+ 
+
+00:06:20.080 --> 00:06:22.150 align:start position:0%
+observable. At each step of the stack,
+you<00:06:20.200><c> can</c><00:06:20.440><c> run</c><00:06:20.680><c> a</c><00:06:20.800><c> real</c><00:06:21.080><c> check</c><00:06:21.480><c> and</c><00:06:21.640><c> confirm</c><00:06:22.000><c> the</c>
+
+00:06:22.150 --> 00:06:22.160 align:start position:0%
+you can run a real check and confirm the
+ 
+
+00:06:22.160 --> 00:06:24.870 align:start position:0%
+you can run a real check and confirm the
+output<00:06:22.560><c> matches</c><00:06:23.080><c> what</c><00:06:23.320><c> you</c><00:06:23.440><c> expect.</c><00:06:24.240><c> Then,</c><00:06:24.680><c> as</c>
+
+00:06:24.870 --> 00:06:24.880 align:start position:0%
+output matches what you expect. Then, as
+ 
+
+00:06:24.880 --> 00:06:27.070 align:start position:0%
+output matches what you expect. Then, as
+you<00:06:25.000><c> merge</c><00:06:25.360><c> from</c><00:06:25.560><c> bottom-up,</c><00:06:26.440><c> each</c><00:06:26.720><c> layer</c>
+
+00:06:27.070 --> 00:06:27.080 align:start position:0%
+you merge from bottom-up, each layer
+ 
+
+00:06:27.080 --> 00:06:28.909 align:start position:0%
+you merge from bottom-up, each layer
+only<00:06:27.360><c> builds</c><00:06:27.800><c> on</c><00:06:27.919><c> the</c><00:06:28.000><c> behavior</c><00:06:28.560><c> that</c><00:06:28.760><c> has</c>
+
+00:06:28.909 --> 00:06:28.919 align:start position:0%
+only builds on the behavior that has
+ 
+
+00:06:28.919 --> 00:06:31.150 align:start position:0%
+only builds on the behavior that has
+already<00:06:29.320><c> been</c><00:06:29.600><c> verified.</c><00:06:30.400><c> This</c><00:06:30.680><c> way,</c><00:06:30.919><c> early</c>
+
+00:06:31.150 --> 00:06:31.160 align:start position:0%
+already been verified. This way, early
+ 
+
+00:06:31.160 --> 00:06:33.230 align:start position:0%
+already been verified. This way, early
+mistakes<00:06:31.640><c> can't</c><00:06:31.919><c> compound</c><00:06:32.560><c> and</c><00:06:33.080><c> when</c>
+
+00:06:33.230 --> 00:06:33.240 align:start position:0%
+mistakes can't compound and when
+ 
+
+00:06:33.240 --> 00:06:35.230 align:start position:0%
+mistakes can't compound and when
+something<00:06:33.600><c> does</c><00:06:33.880><c> break,</c><00:06:34.400><c> you're</c><00:06:34.600><c> debugging</c>
+
+00:06:35.230 --> 00:06:35.240 align:start position:0%
+something does break, you're debugging
+ 
+
+00:06:35.240 --> 00:06:37.350 align:start position:0%
+something does break, you're debugging
+one<00:06:35.480><c> small</c><00:06:35.800><c> diff</c><00:06:36.320><c> instead</c><00:06:36.760><c> of</c><00:06:36.919><c> a</c><00:06:37.040><c> whole</c>
+
+00:06:37.350 --> 00:06:37.360 align:start position:0%
+one small diff instead of a whole
+ 
+
+00:06:37.360 --> 00:06:39.550 align:start position:0%
+one small diff instead of a whole
+change.<00:06:37.960><c> And</c><00:06:38.160><c> systems</c><00:06:38.600><c> like</c><00:06:38.760><c> Stampede</c><00:06:39.280><c> can</c>
+
+00:06:39.550 --> 00:06:39.560 align:start position:0%
+change. And systems like Stampede can
+ 
+
+00:06:39.560 --> 00:06:41.590 align:start position:0%
+change. And systems like Stampede can
+already<00:06:40.040><c> auto-approve</c><00:06:40.800><c> the</c><00:06:40.880><c> small</c><00:06:41.360><c> and</c>
+
+00:06:41.590 --> 00:06:41.600 align:start position:0%
+already auto-approve the small and
+ 
+
+00:06:41.600 --> 00:06:44.190 align:start position:0%
+already auto-approve the small and
+focused<00:06:42.120><c> PRs.</c><00:06:42.840><c> This</c><00:06:43.040><c> is</c><00:06:43.280><c> critical</c><00:06:43.760><c> because</c>
+
+00:06:44.190 --> 00:06:44.200 align:start position:0%
+focused PRs. This is critical because
+ 
+
+00:06:44.200 --> 00:06:46.990 align:start position:0%
+focused PRs. This is critical because
+observation<00:06:45.320><c> scales</c><00:06:45.720><c> better</c><00:06:46.080><c> than</c><00:06:46.440><c> review.</c>
+
+00:06:46.990 --> 00:06:47.000 align:start position:0%
+observation scales better than review.
+ 
+
+00:06:47.000 --> 00:06:48.790 align:start position:0%
+observation scales better than review.
+So,<00:06:47.520><c> when</c><00:06:47.680><c> you</c><00:06:47.800><c> can't</c><00:06:48.040><c> trust</c><00:06:48.280><c> your</c><00:06:48.440><c> agent's</c>
+
+00:06:48.790 --> 00:06:48.800 align:start position:0%
+So, when you can't trust your agent's
+ 
+
+00:06:48.800 --> 00:06:51.430 align:start position:0%
+So, when you can't trust your agent's
+reasoning,<00:06:49.640><c> don't</c><00:06:50.040><c> default</c><00:06:50.600><c> to</c><00:06:50.800><c> reading</c><00:06:51.160><c> more</c>
+
+00:06:51.430 --> 00:06:51.440 align:start position:0%
+reasoning, don't default to reading more
+ 
+
+00:06:51.440 --> 00:06:54.030 align:start position:0%
+reasoning, don't default to reading more
+code.<00:06:52.040><c> Decompose</c><00:06:52.680><c> the</c><00:06:52.760><c> changes</c><00:06:53.560><c> until</c><00:06:53.880><c> you</c>
+
+00:06:54.030 --> 00:06:54.040 align:start position:0%
+code. Decompose the changes until you
+ 
+
+00:06:54.040 --> 00:06:56.270 align:start position:0%
+code. Decompose the changes until you
+can<00:06:54.240><c> watch</c><00:06:54.680><c> each</c><00:06:54.919><c> piece</c><00:06:55.360><c> run.</c><00:06:55.800><c> You</c><00:06:55.960><c> can</c><00:06:56.080><c> set</c>
+
+00:06:56.270 --> 00:06:56.280 align:start position:0%
+can watch each piece run. You can set
+ 
+
+00:06:56.280 --> 00:06:58.390 align:start position:0%
+can watch each piece run. You can set
+this<00:06:56.480><c> up</c><00:06:56.640><c> by</c><00:06:56.800><c> using</c><00:06:57.080><c> Graphite</c><00:06:57.680><c> or</c><00:06:57.960><c> GitHub's</c>
+
+00:06:58.390 --> 00:06:58.400 align:start position:0%
+this up by using Graphite or GitHub's
+ 
+
+00:06:58.400 --> 00:07:00.670 align:start position:0%
+this up by using Graphite or GitHub's
+stack<00:06:58.680><c> PR</c><00:06:59.000><c> support</c><00:06:59.400><c> system</c><00:07:00.080><c> to</c><00:07:00.240><c> stack</c><00:07:00.560><c> the</c>
+
+00:07:00.670 --> 00:07:00.680 align:start position:0%
+stack PR support system to stack the
+ 
+
+00:07:00.680 --> 00:07:03.150 align:start position:0%
+stack PR support system to stack the
+smaller<00:07:01.040><c> PRs</c><00:07:01.560><c> your</c><00:07:01.880><c> agents</c><00:07:02.200><c> produce.</c><00:07:02.880><c> The</c>
+
+00:07:03.150 --> 00:07:03.160 align:start position:0%
+smaller PRs your agents produce. The
+ 
+
+00:07:03.160 --> 00:07:05.070 align:start position:0%
+smaller PRs your agents produce. The
+instructions<00:07:03.840><c> are</c><00:07:04.040><c> actually</c><00:07:04.360><c> pretty</c><00:07:04.560><c> simple.</c>
+
+00:07:05.070 --> 00:07:05.080 align:start position:0%
+instructions are actually pretty simple.
+ 
+
+00:07:05.080 --> 00:07:07.070 align:start position:0%
+instructions are actually pretty simple.
+First,<00:07:05.480><c> split</c><00:07:05.800><c> the</c><00:07:05.919><c> work</c><00:07:06.200><c> into</c><00:07:06.520><c> a</c><00:07:06.600><c> stack</c><00:07:06.960><c> of</c>
+
+00:07:07.070 --> 00:07:07.080 align:start position:0%
+First, split the work into a stack of
+ 
+
+00:07:07.080 --> 00:07:09.590 align:start position:0%
+First, split the work into a stack of
+small<00:07:07.520><c> pull</c><00:07:07.720><c> request,</c><00:07:08.400><c> each</c><00:07:08.720><c> under</c><00:07:09.080><c> 400</c>
+
+00:07:09.590 --> 00:07:09.600 align:start position:0%
+small pull request, each under 400
+ 
+
+00:07:09.600 --> 00:07:12.030 align:start position:0%
+small pull request, each under 400
+change<00:07:09.919><c> lines,</c><00:07:10.640><c> and</c><00:07:10.960><c> focus</c><00:07:11.440><c> on</c><00:07:11.600><c> a</c><00:07:11.680><c> single</c>
+
+00:07:12.030 --> 00:07:12.040 align:start position:0%
+change lines, and focus on a single
+ 
+
+00:07:12.040 --> 00:07:14.590 align:start position:0%
+change lines, and focus on a single
+change<00:07:12.800><c> building</c><00:07:13.280><c> only</c><00:07:13.600><c> on</c><00:07:13.760><c> the</c><00:07:13.840><c> pull</c><00:07:14.080><c> request</c>
+
+00:07:14.590 --> 00:07:14.600 align:start position:0%
+change building only on the pull request
+ 
+
+00:07:14.600 --> 00:07:17.110 align:start position:0%
+change building only on the pull request
+below<00:07:14.880><c> it.</c><00:07:15.280><c> And</c><00:07:15.600><c> second,</c><00:07:16.160><c> every</c><00:07:16.480><c> pull</c><00:07:16.680><c> request</c>
+
+00:07:17.110 --> 00:07:17.120 align:start position:0%
+below it. And second, every pull request
+ 
+
+00:07:17.120 --> 00:07:19.510 align:start position:0%
+below it. And second, every pull request
+has<00:07:17.360><c> to</c><00:07:17.480><c> ship</c><00:07:17.760><c> with</c><00:07:17.880><c> its</c><00:07:18.040><c> own</c><00:07:18.280><c> test</c><00:07:18.960><c> and</c><00:07:19.280><c> end</c>
+
+00:07:19.510 --> 00:07:19.520 align:start position:0%
+has to ship with its own test and end
+ 
+
+00:07:19.520 --> 00:07:21.110 align:start position:0%
+has to ship with its own test and end
+with<00:07:19.680><c> a</c><00:07:19.760><c> way</c><00:07:19.960><c> to</c><00:07:20.120><c> observe</c><00:07:20.520><c> it</c><00:07:20.720><c> working</c>
+
+00:07:21.110 --> 00:07:21.120 align:start position:0%
+with a way to observe it working
+ 
+
+00:07:21.120 --> 00:07:23.950 align:start position:0%
+with a way to observe it working
+directly,<00:07:21.880><c> a</c><00:07:22.080><c> command</c><00:07:22.440><c> to</c><00:07:22.560><c> run</c><00:07:23.000><c> and</c><00:07:23.280><c> an</c><00:07:23.480><c> output</c>
+
+00:07:23.950 --> 00:07:23.960 align:start position:0%
+directly, a command to run and an output
+ 
+
+00:07:23.960 --> 00:07:25.710 align:start position:0%
+directly, a command to run and an output
+you<00:07:24.120><c> should</c><00:07:24.280><c> expect.</c><00:07:25.040><c> This</c><00:07:25.200><c> approach</c><00:07:25.600><c> is</c>
+
+00:07:25.710 --> 00:07:25.720 align:start position:0%
+you should expect. This approach is
+ 
+
+00:07:25.720 --> 00:07:27.670 align:start position:0%
+you should expect. This approach is
+especially<00:07:26.240><c> valuable</c><00:07:26.760><c> for</c><00:07:26.960><c> front-end</c><00:07:27.360><c> work</c>
+
+00:07:27.670 --> 00:07:27.680 align:start position:0%
+especially valuable for front-end work
+ 
+
+00:07:27.680 --> 00:07:29.950 align:start position:0%
+especially valuable for front-end work
+since<00:07:28.240><c> deterministic</c><00:07:28.960><c> tests</c><00:07:29.360><c> don't</c><00:07:29.640><c> always</c>
+
+00:07:29.950 --> 00:07:29.960 align:start position:0%
+since deterministic tests don't always
+ 
+
+00:07:29.960 --> 00:07:32.190 align:start position:0%
+since deterministic tests don't always
+capture<00:07:30.320><c> the</c><00:07:30.440><c> visuals</c><00:07:31.000><c> or</c><00:07:31.600><c> behavioral</c>
+
+00:07:32.190 --> 00:07:32.200 align:start position:0%
+capture the visuals or behavioral
+ 
+
+00:07:32.200 --> 00:07:34.110 align:start position:0%
+capture the visuals or behavioral
+functionality<00:07:32.880><c> that</c><00:07:33.160><c> you're</c><00:07:33.280><c> looking</c><00:07:33.560><c> for.</c>
+
+00:07:34.110 --> 00:07:34.120 align:start position:0%
+functionality that you're looking for.
+ 
+
+00:07:34.120 --> 00:07:36.590 align:start position:0%
+functionality that you're looking for.
+So,<00:07:34.440><c> to</c><00:07:34.600><c> close</c><00:07:34.880><c> this</c><00:07:35.120><c> out,</c><00:07:35.480><c> the</c><00:07:35.680><c> fix</c><00:07:36.040><c> isn't</c><00:07:36.440><c> to</c>
+
+00:07:36.590 --> 00:07:36.600 align:start position:0%
+So, to close this out, the fix isn't to
+ 
+
+00:07:36.600 --> 00:07:38.710 align:start position:0%
+So, to close this out, the fix isn't to
+review<00:07:36.960><c> harder,</c><00:07:37.560><c> it's</c><00:07:37.800><c> to</c><00:07:37.919><c> build</c><00:07:38.240><c> systems</c>
+
+00:07:38.710 --> 00:07:38.720 align:start position:0%
+review harder, it's to build systems
+ 
+
+00:07:38.720 --> 00:07:40.670 align:start position:0%
+review harder, it's to build systems
+around<00:07:39.120><c> your</c><00:07:39.280><c> process</c><00:07:39.880><c> so</c><00:07:40.120><c> you</c><00:07:40.280><c> can</c><00:07:40.440><c> keep</c>
+
+00:07:40.670 --> 00:07:40.680 align:start position:0%
+around your process so you can keep
+ 
+
+00:07:40.680 --> 00:07:44.030 align:start position:0%
+around your process so you can keep
+shipping<00:07:41.000><c> faster</c><00:07:41.760><c> and</c><00:07:42.160><c> do</c><00:07:42.440><c> so</c><00:07:42.880><c> reliably.</c><00:07:43.760><c> If</c>
+
+00:07:44.030 --> 00:07:44.040 align:start position:0%
+shipping faster and do so reliably. If
+ 
+
+00:07:44.040 --> 00:07:45.990 align:start position:0%
+shipping faster and do so reliably. If
+you<00:07:44.120><c> want</c><00:07:44.280><c> to</c><00:07:44.360><c> dive</c><00:07:44.600><c> deeper</c><00:07:44.920><c> into</c><00:07:45.120><c> this</c><00:07:45.280><c> topic,</c>
+
+00:07:45.990 --> 00:07:46.000 align:start position:0%
+you want to dive deeper into this topic,
+ 
+
+00:07:46.000 --> 00:07:47.910 align:start position:0%
+you want to dive deeper into this topic,
+this<00:07:46.200><c> video</c><00:07:46.520><c> was</c><00:07:46.720><c> actually</c><00:07:47.040><c> inspired</c><00:07:47.600><c> by</c><00:07:47.760><c> an</c>
+
+00:07:47.910 --> 00:07:47.920 align:start position:0%
+this video was actually inspired by an
+ 
+
+00:07:47.920 --> 00:07:49.430 align:start position:0%
+this video was actually inspired by an
+article<00:07:48.480><c> and</c><00:07:48.600><c> that's</c><00:07:48.800><c> going</c><00:07:48.920><c> to</c><00:07:49.000><c> be</c><00:07:49.080><c> linked</c><00:07:49.360><c> up</c>
+
+00:07:49.430 --> 00:07:49.440 align:start position:0%
+article and that's going to be linked up
+ 
+
+00:07:49.440 --> 00:07:51.230 align:start position:0%
+article and that's going to be linked up
+in<00:07:49.520><c> the</c><00:07:49.600><c> video</c><00:07:49.840><c> description.</c><00:07:50.760><c> I</c><00:07:50.880><c> highly</c>
+
+00:07:51.230 --> 00:07:51.240 align:start position:0%
+in the video description. I highly
+ 
+
+00:07:51.240 --> 00:07:53.550 align:start position:0%
+in the video description. I highly
+recommend<00:07:51.840><c> you</c><00:07:51.960><c> check</c><00:07:52.200><c> it</c><00:07:52.320><c> out.</c><00:07:52.720><c> So</c><00:07:53.200><c> that's</c><00:07:53.440><c> it</c>
+
+00:07:53.550 --> 00:07:53.560 align:start position:0%
+recommend you check it out. So that's it
+ 
+
+00:07:53.560 --> 00:07:55.510 align:start position:0%
+recommend you check it out. So that's it
+for<00:07:53.640><c> this</c><00:07:53.840><c> one.</c><00:07:54.240><c> If</c><00:07:54.440><c> you</c><00:07:54.560><c> found</c><00:07:54.800><c> this</c><00:07:55.000><c> useful,</c>
+
+00:07:55.510 --> 00:07:55.520 align:start position:0%
+for this one. If you found this useful,
+ 
+
+00:07:55.520 --> 00:07:57.310 align:start position:0%
+for this one. If you found this useful,
+make<00:07:55.760><c> sure</c><00:07:55.920><c> to</c><00:07:56.040><c> subscribe</c><00:07:56.400><c> to</c><00:07:56.520><c> the</c><00:07:56.600><c> channel</c>
+
+00:07:57.310 --> 00:07:57.320 align:start position:0%
+make sure to subscribe to the channel
+ 
+
+00:07:57.320 --> 00:08:01.360 align:start position:0%
+make sure to subscribe to the channel
+and<00:07:57.680><c> I'll</c><00:07:57.800><c> see</c><00:07:57.960><c> you</c><00:07:58.160><c> all</c><00:07:58.560><c> in</c><00:07:58.640><c> the</c><00:07:58.680><c> next</c><00:07:58.920><c> video.</c>
+
